@@ -1,0 +1,2 @@
+2021-10-12 16:28:56 INFO  WebDriverManager:606 - Using chromedriver 94.0.4606.61 (resolved driver for Chrome 94)
+2021-10-12 16:28:56 INFO  WebDriverManager:662 - Exporting webdriver.chrome.driver as C:\Users\Administrator\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Reports">
+
+	<listeners>
+		<listener
+			class-name="com.salesoptimize.utility.ExtentListeners"></listener>
+		<listener
+			class-name="com.salesoptimize.utility.CustomTestNGReporter"></listener>
+	</listeners>
+
+	<test name="SalesOptimizeSuite">
+		<parameter name="rowNum" value="2" />
+		<parameter name="dashboardSheet" value="Dashboard" />
+
+
+		<classes>
+
+			<class name="com.salesoptimize.landingpage.LoginSalesOptimizeTest"></class>
+		    
+		 
+			<class name="com.salesoptimize.testcases.TestCase_1" />
+			<class name="com.salesoptimize.testcases.TestCase_2" />
+			<class name="com.salesoptimize.testcases.TestCase_3" />
+			<class name="com.salesoptimize.testcases.TestCase_4" />
+			<class name="com.salesoptimize.testcases.TestCase_5" />
+			<class name="com.salesoptimize.testcases.TestCase_6" />
+			<class name="com.salesoptimize.testcases.TestCase_7" />
+			<class name="com.salesoptimize.testcases.TestCase_8" />
+			<class name="com.salesoptimize.testcases.TestCase_9" />
+			<class name="com.salesoptimize.testcases.TestCase_10" />
+
+			<class name="com.salesoptimize.testcases.TestCase_11" />
+			<class name="com.salesoptimize.testcases.TestCase_12" />
+			<class name="com.salesoptimize.testcases.TestCase_13" />
+			<class name="com.salesoptimize.testcases.TestCase_14" />
+			<class name="com.salesoptimize.testcases.TestCase_15" />
+			<class name="com.salesoptimize.testcases.TestCase_16" />
+			<class name="com.salesoptimize.testcases.TestCase_17" />
+			<class name="com.salesoptimize.testcases.TestCase_18" />
+			<class name="com.salesoptimize.testcases.TestCase_19" />
+			<class name="com.salesoptimize.testcases.TestCase_20" />
+
+			<class name="com.salesoptimize.testcases.TestCase_21" />
+			<class name="com.salesoptimize.testcases.TestCase_22" />
+			<class name="com.salesoptimize.testcases.TestCase_23" />
+			<class name="com.salesoptimize.testcases.TestCase_24" />
+			<class name="com.salesoptimize.testcases.TestCase_25" />
+			<class name="com.salesoptimize.testcases.TestCase_26" />
+			<class name="com.salesoptimize.testcases.TestCase_27" />
+			<class name="com.salesoptimize.testcases.TestCase_28" />
+			<class name="com.salesoptimize.testcases.TestCase_29" />
+			<class name="com.salesoptimize.testcases.TestCase_30" />
+
+			<class name="com.salesoptimize.testcases.TestCase_31" />
+			<class name="com.salesoptimize.testcases.TestCase_32" />
+			<class name="com.salesoptimize.testcases.TestCase_33" />
+			<class name="com.salesoptimize.testcases.TestCase_34" />
+			<class name="com.salesoptimize.testcases.TestCase_35" />
+			<class name="com.salesoptimize.testcases.TestCase_36" />
+			<class name="com.salesoptimize.testcases.TestCase_37" />
+			<class name="com.salesoptimize.testcases.TestCase_38" />
+			<class name="com.salesoptimize.testcases.TestCase_39" />
+			<class name="com.salesoptimize.testcases.TestCase_40" />
+			
+		
+                  
+		</classes>
+	</test>
+</suite> 

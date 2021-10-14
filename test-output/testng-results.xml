@@ -1,0 +1,1514 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="120" total="161" passed="40" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-05T12:19:01Z" name="Reports" finished-at="2021-10-05T12:40:41Z" duration-ms="1300563">
+    <groups>
+      <group name="PaymentProvider">
+        <method signature="TestCase_12.ExcludePaymentProvider(int, java.lang.String)[pri:0, instance:com.salesoptimize.testcases.TestCase_12@3972a855]" name="ExcludePaymentProvider" class="com.salesoptimize.testcases.TestCase_12"/>
+        <method signature="TestCase_15.IncludeFinanceProvider(int, java.lang.String)[pri:0, instance:com.salesoptimize.testcases.TestCase_15@6a370f4]" name="IncludeFinanceProvider" class="com.salesoptimize.testcases.TestCase_15"/>
+        <method signature="TestCase_16.ExcludeFinanceProvider(int, java.lang.String)[pri:0, instance:com.salesoptimize.testcases.TestCase_16@2abf4075]" name="ExcludeFinanceProvider" class="com.salesoptimize.testcases.TestCase_16"/>
+        <method signature="TestCase_5.IncludePaymentProvider(int, java.lang.String)[pri:0, instance:com.salesoptimize.testcases.TestCase_5@55b53d44]" name="IncludePaymentProvider" class="com.salesoptimize.testcases.TestCase_5"/>
+        <method signature="TestCase_7.Multiurllookup(int, java.lang.String)[pri:0, instance:com.salesoptimize.testcases.TestCase_7@366647c2]" name="Multiurllookup" class="com.salesoptimize.testcases.TestCase_7"/>
+      </group> <!-- PaymentProvider -->
+      <group name="SalesforceCRMExport">
+        <method signature="TestCase_6.AddSalesforceCRMExport(int, java.lang.String)[pri:0, instance:com.salesoptimize.testcases.TestCase_6@482bce4f]" name="AddSalesforceCRMExport" class="com.salesoptimize.testcases.TestCase_6"/>
+      </group> <!-- SalesforceCRMExport -->
+      <group name="Alexa">
+        <method signature="TestCase_24.VisitorTrafficRegionCountry(int, java.lang.String)[pri:0, instance:com.salesoptimize.testcases.TestCase_24@26275bef]" name="VisitorTrafficRegionCountry" class="com.salesoptimize.testcases.TestCase_24"/>
+      </group> <!-- Alexa -->
+      <group name="ContactDepartment">
+        <method signature="TestCase_10.ContactDepartment(int, java.lang.String)[pri:0, instance:com.salesoptimize.testcases.TestCase_10@865dd6]" name="ContactDepartment" class="com.salesoptimize.testcases.TestCase_10"/>
+      </group> <!-- ContactDepartment -->
+      <group name="TurnOver">
+        <method signature="TestCase_4.selectEstimatedOnlineSales(int, java.lang.String)[pri:0, instance:com.salesoptimize.testcases.TestCase_4@5fa07e12]" name="selectEstimatedOnlineSales" class="com.salesoptimize.testcases.TestCase_4"/>
+      </group> <!-- TurnOver -->
+      <group name="Login">
+        <method signature="LoginSalesOptimizeTest.LoginSalesOptimize()[pri:0, instance:com.salesoptimize.landingpage.LoginSalesOptimizeTest@355ce81c]" name="LoginSalesOptimize" class="com.salesoptimize.landingpage.LoginSalesOptimizeTest"/>
+      </group> <!-- Login -->
+      <group name="Domains">
+        <method signature="TestCase_25.EvidenceofInternationalPresence(int, java.lang.String)[pri:0, instance:com.salesoptimize.testcases.TestCase_25@7690781]" name="EvidenceofInternationalPresence" class="com.salesoptimize.testcases.TestCase_25"/>
+      </group> <!-- Domains -->
+      <group name="Retail">
+        <method signature="TestCase_8.SelectIndustryAndSubIndustry(int, java.lang.String)[pri:0, instance:com.salesoptimize.testcases.TestCase_8@6a6afff2]" name="SelectIndustryAndSubIndustry" class="com.salesoptimize.testcases.TestCase_8"/>
+      </group> <!-- Retail -->
+      <group name="SocialMedia">
+        <method signature="TestCase_29.ExcludeWebsiteTechnology(int, java.lang.String)[pri:0, instance:com.salesoptimize.testcases.TestCase_29@61386958]" name="ExcludeWebsiteTechnology" class="com.salesoptimize.testcases.TestCase_29"/>
+        <method signature="TestCase_30.TwitterFollowers(int, java.lang.String)[pri:0, instance:com.salesoptimize.testcases.TestCase_30@73ee04c8]" name="TwitterFollowers" class="com.salesoptimize.testcases.TestCase_30"/>
+        <method signature="TestCase_31.InstagramFollowers(int, java.lang.String)[pri:0, instance:com.salesoptimize.testcases.TestCase_31@7671cb68]" name="InstagramFollowers" class="com.salesoptimize.testcases.TestCase_31"/>
+        <method signature="TestCase_32.YouTubeViews(int, java.lang.String)[pri:0, instance:com.salesoptimize.testcases.TestCase_32@49dc7102]" name="YouTubeViews" class="com.salesoptimize.testcases.TestCase_32"/>
+        <method signature="TestCase_33.YouTubeSubscribers(int, java.lang.String)[pri:0, instance:com.salesoptimize.testcases.TestCase_33@6b8ca3c8]" name="YouTubeSubscribers" class="com.salesoptimize.testcases.TestCase_33"/>
+        <method signature="TestCase_34.PresenceOfFacebook(int, java.lang.String)[pri:0, instance:com.salesoptimize.testcases.TestCase_34@68c72235]" name="PresenceOfFacebook" class="com.salesoptimize.testcases.TestCase_34"/>
+        <method signature="TestCase_35.PresenceOfTwitter(int, java.lang.String)[pri:0, instance:com.salesoptimize.testcases.TestCase_35@10959ece]" name="PresenceOfTwitter" class="com.salesoptimize.testcases.TestCase_35"/>
+        <method signature="TestCase_36.PresencOfInstagram(int, java.lang.String)[pri:0, instance:com.salesoptimize.testcases.TestCase_36@3a6bb9bf]" name="PresencOfInstagram" class="com.salesoptimize.testcases.TestCase_36"/>
+        <method signature="TestCase_37.PresenceofYoutube(int, java.lang.String)[pri:0, instance:com.salesoptimize.testcases.TestCase_37@34f7cfd9]" name="PresenceofYoutube" class="com.salesoptimize.testcases.TestCase_37"/>
+        <method signature="TestCase_38.IncludeMarketingAnalytics(int, java.lang.String)[pri:0, instance:com.salesoptimize.testcases.TestCase_38@65f095f8]" name="IncludeMarketingAnalytics" class="com.salesoptimize.testcases.TestCase_38"/>
+        <method signature="TestCase_39.TwitterFollowers(int, java.lang.String)[pri:0, instance:com.salesoptimize.testcases.TestCase_39@59af0466]" name="TwitterFollowers" class="com.salesoptimize.testcases.TestCase_39"/>
+      </group> <!-- SocialMedia -->
+      <group name="ShippingCompanies">
+        <method signature="TestCase_20.AllSitesShipping(int, java.lang.String)[pri:0, instance:com.salesoptimize.testcases.TestCase_20@19d481b]" name="AllSitesShipping" class="com.salesoptimize.testcases.TestCase_20"/>
+        <method signature="TestCase_21.IncludeShippingCompanies(int, java.lang.String)[pri:0, instance:com.salesoptimize.testcases.TestCase_21@1f97cf0d]" name="IncludeShippingCompanies" class="com.salesoptimize.testcases.TestCase_21"/>
+        <method signature="TestCase_22.ExcludeShippingCompanies(int, java.lang.String)[pri:0, instance:com.salesoptimize.testcases.TestCase_22@140c9f39]" name="ExcludeShippingCompanies" class="com.salesoptimize.testcases.TestCase_22"/>
+        <method signature="TestCase_23.EvidenceofFreeShipping(int, java.lang.String)[pri:0, instance:com.salesoptimize.testcases.TestCase_23@4d910fd6]" name="EvidenceofFreeShipping" class="com.salesoptimize.testcases.TestCase_23"/>
+        <method signature="TestCase_26.EvidenceOfInternationalShipping(int, java.lang.String)[pri:0, instance:com.salesoptimize.testcases.TestCase_26@77eca502]" name="EvidenceOfInternationalShipping" class="com.salesoptimize.testcases.TestCase_26"/>
+      </group> <!-- ShippingCompanies -->
+      <group name="Technology">
+        <method signature="TestCase_27.IncludeWebsiteTechnology(int, java.lang.String)[pri:0, instance:com.salesoptimize.testcases.TestCase_27@3246fb96]" name="IncludeWebsiteTechnology" class="com.salesoptimize.testcases.TestCase_27"/>
+        <method signature="TestCase_28.ExcludeWebsiteTechnology(int, java.lang.String)[pri:0, instance:com.salesoptimize.testcases.TestCase_28@2e222612]" name="ExcludeWebsiteTechnology" class="com.salesoptimize.testcases.TestCase_28"/>
+      </group> <!-- Technology -->
+      <group name="PaymentMethod">
+        <method signature="TestCase_13.IncludePaymentMethod(int, java.lang.String)[pri:0, instance:com.salesoptimize.testcases.TestCase_13@62e7f11d]" name="IncludePaymentMethod" class="com.salesoptimize.testcases.TestCase_13"/>
+        <method signature="TestCase_14.ExcludePaymentMethod(int, java.lang.String)[pri:0, instance:com.salesoptimize.testcases.TestCase_14@503d687a]" name="ExcludePaymentMethod" class="com.salesoptimize.testcases.TestCase_14"/>
+      </group> <!-- PaymentMethod -->
+      <group name="Evidence">
+        <method signature="TestCase_17.EvidenceOfOnlinePayments(int, java.lang.String)[pri:0, instance:com.salesoptimize.testcases.TestCase_17@770d3326]" name="EvidenceOfOnlinePayments" class="com.salesoptimize.testcases.TestCase_17"/>
+        <method signature="TestCase_18.EvidenceofMobileSite(int, java.lang.String)[pri:0, instance:com.salesoptimize.testcases.TestCase_18@4cc8eb05]" name="EvidenceofMobileSite" class="com.salesoptimize.testcases.TestCase_18"/>
+        <method signature="TestCase_19.EvidenceOfMultipleCurrencies(int, java.lang.String)[pri:0, instance:com.salesoptimize.testcases.TestCase_19@51f116b8]" name="EvidenceOfMultipleCurrencies" class="com.salesoptimize.testcases.TestCase_19"/>
+      </group> <!-- Evidence -->
+      <group name="TopLevelDomain">
+        <method signature="TestCase_40.TopLevelDomain(int, java.lang.String)[pri:0, instance:com.salesoptimize.testcases.TestCase_40@3e6ef8ad]" name="TopLevelDomain" class="com.salesoptimize.testcases.TestCase_40"/>
+      </group> <!-- TopLevelDomain -->
+      <group name="ExportData">
+        <method signature="TestCase_1.ExportAList(int, java.lang.String)[pri:0, instance:com.salesoptimize.testcases.TestCase_1@29647f75]" name="ExportAList" class="com.salesoptimize.testcases.TestCase_1"/>
+        <method signature="TestCase_11.ExportMustHaveEmailAddressPhoneNumber(int, java.lang.String)[pri:0, instance:com.salesoptimize.testcases.TestCase_11@4da4253]" name="ExportMustHaveEmailAddressPhoneNumber" class="com.salesoptimize.testcases.TestCase_11"/>
+        <method signature="TestCase_2.ExportPurchasedLeadToSalesforce(int, java.lang.String)[pri:0, instance:com.salesoptimize.testcases.TestCase_2@3315d2d7]" name="ExportPurchasedLeadToSalesforce" class="com.salesoptimize.testcases.TestCase_2"/>
+      </group> <!-- ExportData -->
+      <group name="GlobalRegion">
+        <method signature="TestCase_3.SelectGlobalRegion(int, java.lang.String)[pri:0, instance:com.salesoptimize.testcases.TestCase_3@d6e7bab]" name="SelectGlobalRegion" class="com.salesoptimize.testcases.TestCase_3"/>
+      </group> <!-- GlobalRegion -->
+      <group name="Location">
+        <method signature="TestCase_9.HasPhysicalLocation(int, java.lang.String)[pri:0, instance:com.salesoptimize.testcases.TestCase_9@1649b0e6]" name="HasPhysicalLocation" class="com.salesoptimize.testcases.TestCase_9"/>
+      </group> <!-- Location -->
+    </groups>
+    <test started-at="2021-10-05T12:19:01Z" name="SalesOptimizeSuite" finished-at="2021-10-05T12:40:41Z" duration-ms="1300563">
+      <class name="com.salesoptimize.testcases.TestCase_27">
+        <test-method is-config="true" signature="ExtentReportConfig(org.testng.ITestContext)[pri:0, instance:com.salesoptimize.testcases.TestCase_27@3246fb96]" started-at="2021-10-05T18:01:54Z" name="ExtentReportConfig" finished-at="2021-10-05T18:01:54Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@799c87]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExtentReportConfig -->
+        <test-method signature="IncludeWebsiteTechnology(int, java.lang.String)[pri:0, instance:com.salesoptimize.testcases.TestCase_27@3246fb96]" started-at="2021-10-05T18:01:54Z" name="IncludeWebsiteTechnology" description="Verify Website Technology should contain &#039;Magento&#039;" finished-at="2021-10-05T18:02:18Z" duration-ms="23026" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dashboard]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IncludeWebsiteTechnology -->
+        <test-method is-config="true" signature="reset()[pri:0, instance:com.salesoptimize.testcases.TestCase_27@3246fb96]" started-at="2021-10-05T18:02:18Z" name="reset" finished-at="2021-10-05T18:02:24Z" duration-ms="6458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reset -->
+      </class> <!-- com.salesoptimize.testcases.TestCase_27 -->
+      <class name="com.salesoptimize.testcases.TestCase_26">
+        <test-method signature="EvidenceOfInternationalShipping(int, java.lang.String)[pri:0, instance:com.salesoptimize.testcases.TestCase_26@77eca502]" started-at="2021-10-05T18:01:29Z" name="EvidenceOfInternationalShipping" description="Verify Shipping companies&#039; value should contain &#039;International Delivery&#039;" finished-at="2021-10-05T18:01:48Z" duration-ms="18842" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dashboard]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EvidenceOfInternationalShipping -->
+        <test-method is-config="true" signature="ExtentReportConfig(org.testng.ITestContext)[pri:0, instance:com.salesoptimize.testcases.TestCase_26@77eca502]" started-at="2021-10-05T18:01:29Z" name="ExtentReportConfig" finished-at="2021-10-05T18:01:29Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@799c87]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExtentReportConfig -->
+        <test-method is-config="true" signature="reset()[pri:0, instance:com.salesoptimize.testcases.TestCase_26@77eca502]" started-at="2021-10-05T18:01:48Z" name="reset" finished-at="2021-10-05T18:01:54Z" duration-ms="6411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reset -->
+      </class> <!-- com.salesoptimize.testcases.TestCase_26 -->
+      <class name="com.salesoptimize.testcases.TestCase_25">
+        <test-method is-config="true" signature="ExtentReportConfig(org.testng.ITestContext)[pri:0, instance:com.salesoptimize.testcases.TestCase_25@7690781]" started-at="2021-10-05T18:01:04Z" name="ExtentReportConfig" finished-at="2021-10-05T18:01:04Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@799c87]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExtentReportConfig -->
+        <test-method signature="EvidenceofInternationalPresence(int, java.lang.String)[pri:0, instance:com.salesoptimize.testcases.TestCase_25@7690781]" started-at="2021-10-05T18:01:04Z" name="EvidenceofInternationalPresence" description="Verify Has International Domains value should be &#039;Yes&#039;" finished-at="2021-10-05T18:01:23Z" duration-ms="18971" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dashboard]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EvidenceofInternationalPresence -->
+        <test-method is-config="true" signature="reset()[pri:0, instance:com.salesoptimize.testcases.TestCase_25@7690781]" started-at="2021-10-05T18:01:23Z" name="reset" finished-at="2021-10-05T18:01:29Z" duration-ms="6406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reset -->
+      </class> <!-- com.salesoptimize.testcases.TestCase_25 -->
+      <class name="com.salesoptimize.testcases.TestCase_24">
+        <test-method signature="VisitorTrafficRegionCountry(int, java.lang.String)[pri:0, instance:com.salesoptimize.testcases.TestCase_24@26275bef]" started-at="2021-10-05T18:00:35Z" name="VisitorTrafficRegionCountry" description="Verify Alexa Traffic Information&#039; shoud contain country Germany" finished-at="2021-10-05T18:00:57Z" duration-ms="22885" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dashboard]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VisitorTrafficRegionCountry -->
+        <test-method is-config="true" signature="ExtentReportConfig(org.testng.ITestContext)[pri:0, instance:com.salesoptimize.testcases.TestCase_24@26275bef]" started-at="2021-10-05T18:00:35Z" name="ExtentReportConfig" finished-at="2021-10-05T18:00:35Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@799c87]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExtentReportConfig -->
+        <test-method is-config="true" signature="reset()[pri:0, instance:com.salesoptimize.testcases.TestCase_24@26275bef]" started-at="2021-10-05T18:00:57Z" name="reset" finished-at="2021-10-05T18:01:04Z" duration-ms="6425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reset -->
+      </class> <!-- com.salesoptimize.testcases.TestCase_24 -->
+      <class name="com.salesoptimize.testcases.TestCase_29">
+        <test-method signature="ExcludeWebsiteTechnology(int, java.lang.String)[pri:0, instance:com.salesoptimize.testcases.TestCase_29@61386958]" started-at="2021-10-05T18:02:53Z" name="ExcludeWebsiteTechnology" description="Verify Facebook Likes&#039; should be &#039;&gt;1M&#039;" finished-at="2021-10-05T18:03:20Z" duration-ms="26389" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dashboard]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExcludeWebsiteTechnology -->
+        <test-method is-config="true" signature="ExtentReportConfig(org.testng.ITestContext)[pri:0, instance:com.salesoptimize.testcases.TestCase_29@61386958]" started-at="2021-10-05T18:02:53Z" name="ExtentReportConfig" finished-at="2021-10-05T18:02:53Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@799c87]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExtentReportConfig -->
+        <test-method is-config="true" signature="reset()[pri:0, instance:com.salesoptimize.testcases.TestCase_29@61386958]" started-at="2021-10-05T18:03:20Z" name="reset" finished-at="2021-10-05T18:03:26Z" duration-ms="6449" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reset -->
+      </class> <!-- com.salesoptimize.testcases.TestCase_29 -->
+      <class name="com.salesoptimize.testcases.TestCase_28">
+        <test-method signature="ExcludeWebsiteTechnology(int, java.lang.String)[pri:0, instance:com.salesoptimize.testcases.TestCase_28@2e222612]" started-at="2021-10-05T18:02:24Z" name="ExcludeWebsiteTechnology" description="Verify Website Technology should not contain &#039;Magento&#039;" finished-at="2021-10-05T18:02:47Z" duration-ms="22722" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dashboard]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExcludeWebsiteTechnology -->
+        <test-method is-config="true" signature="ExtentReportConfig(org.testng.ITestContext)[pri:0, instance:com.salesoptimize.testcases.TestCase_28@2e222612]" started-at="2021-10-05T18:02:24Z" name="ExtentReportConfig" finished-at="2021-10-05T18:02:24Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@799c87]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExtentReportConfig -->
+        <test-method is-config="true" signature="reset()[pri:0, instance:com.salesoptimize.testcases.TestCase_28@2e222612]" started-at="2021-10-05T18:02:47Z" name="reset" finished-at="2021-10-05T18:02:53Z" duration-ms="6558" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reset -->
+      </class> <!-- com.salesoptimize.testcases.TestCase_28 -->
+      <class name="com.salesoptimize.testcases.TestCase_40">
+        <test-method is-config="true" signature="ExtentReportConfig(org.testng.ITestContext)[pri:0, instance:com.salesoptimize.testcases.TestCase_40@3e6ef8ad]" started-at="2021-10-05T18:08:58Z" name="ExtentReportConfig" finished-at="2021-10-05T18:08:58Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@799c87]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExtentReportConfig -->
+        <test-method signature="TopLevelDomain(int, java.lang.String)[pri:0, instance:com.salesoptimize.testcases.TestCase_40@3e6ef8ad]" started-at="2021-10-05T18:08:58Z" name="TopLevelDomain" description="Verify Simple Url should end with &#039;.com&#039;" finished-at="2021-10-05T18:10:35Z" duration-ms="97763" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dashboard]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TopLevelDomain -->
+        <test-method is-config="true" signature="reset()[pri:0, instance:com.salesoptimize.testcases.TestCase_40@3e6ef8ad]" started-at="2021-10-05T18:10:35Z" name="reset" finished-at="2021-10-05T18:10:41Z" duration-ms="5749" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reset -->
+      </class> <!-- com.salesoptimize.testcases.TestCase_40 -->
+      <class name="com.salesoptimize.testcases.TestCase_23">
+        <test-method is-config="true" signature="ExtentReportConfig(org.testng.ITestContext)[pri:0, instance:com.salesoptimize.testcases.TestCase_23@4d910fd6]" started-at="2021-10-05T18:00:08Z" name="ExtentReportConfig" finished-at="2021-10-05T18:00:08Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@799c87]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExtentReportConfig -->
+        <test-method signature="EvidenceofFreeShipping(int, java.lang.String)[pri:0, instance:com.salesoptimize.testcases.TestCase_23@4d910fd6]" started-at="2021-10-05T18:00:08Z" name="EvidenceofFreeShipping" description="Verify Shipping companies should contains &#039;Free Shipping&#039;, &#039;Same/Next Day Shipping&#039;, &#039;Returns" finished-at="2021-10-05T18:00:28Z" duration-ms="20402" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dashboard]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EvidenceofFreeShipping -->
+        <test-method is-config="true" signature="reset()[pri:0, instance:com.salesoptimize.testcases.TestCase_23@4d910fd6]" started-at="2021-10-05T18:00:28Z" name="reset" finished-at="2021-10-05T18:00:35Z" duration-ms="6442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reset -->
+      </class> <!-- com.salesoptimize.testcases.TestCase_23 -->
+      <class name="com.salesoptimize.testcases.TestCase_22">
+        <test-method is-config="true" signature="ExtentReportConfig(org.testng.ITestContext)[pri:0, instance:com.salesoptimize.testcases.TestCase_22@140c9f39]" started-at="2021-10-05T17:59:41Z" name="ExtentReportConfig" finished-at="2021-10-05T17:59:41Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@799c87]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExtentReportConfig -->
+        <test-method signature="ExcludeShippingCompanies(int, java.lang.String)[pri:0, instance:com.salesoptimize.testcases.TestCase_22@140c9f39]" started-at="2021-10-05T17:59:41Z" name="ExcludeShippingCompanies" description="Verify Shipping Companies not contain &#039;An Post&#039;" finished-at="2021-10-05T18:00:01Z" duration-ms="20321" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dashboard]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExcludeShippingCompanies -->
+        <test-method is-config="true" signature="reset()[pri:0, instance:com.salesoptimize.testcases.TestCase_22@140c9f39]" started-at="2021-10-05T18:00:01Z" name="reset" finished-at="2021-10-05T18:00:08Z" duration-ms="6434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reset -->
+      </class> <!-- com.salesoptimize.testcases.TestCase_22 -->
+      <class name="com.salesoptimize.testcases.TestCase_21">
+        <test-method signature="IncludeShippingCompanies(int, java.lang.String)[pri:0, instance:com.salesoptimize.testcases.TestCase_21@1f97cf0d]" started-at="2021-10-05T17:59:17Z" name="IncludeShippingCompanies" description="Verify Shipping Companies should contain &#039;An Post&#039;" finished-at="2021-10-05T17:59:35Z" duration-ms="17315" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dashboard]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IncludeShippingCompanies -->
+        <test-method is-config="true" signature="ExtentReportConfig(org.testng.ITestContext)[pri:0, instance:com.salesoptimize.testcases.TestCase_21@1f97cf0d]" started-at="2021-10-05T17:59:17Z" name="ExtentReportConfig" finished-at="2021-10-05T17:59:17Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@799c87]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExtentReportConfig -->
+        <test-method is-config="true" signature="reset()[pri:0, instance:com.salesoptimize.testcases.TestCase_21@1f97cf0d]" started-at="2021-10-05T17:59:35Z" name="reset" finished-at="2021-10-05T17:59:41Z" duration-ms="6417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reset -->
+      </class> <!-- com.salesoptimize.testcases.TestCase_21 -->
+      <class name="com.salesoptimize.testcases.TestCase_20">
+        <test-method is-config="true" signature="ExtentReportConfig(org.testng.ITestContext)[pri:0, instance:com.salesoptimize.testcases.TestCase_20@19d481b]" started-at="2021-10-05T17:58:53Z" name="ExtentReportConfig" finished-at="2021-10-05T17:58:53Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@799c87]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExtentReportConfig -->
+        <test-method signature="AllSitesShipping(int, java.lang.String)[pri:0, instance:com.salesoptimize.testcases.TestCase_20@19d481b]" started-at="2021-10-05T17:58:53Z" name="AllSitesShipping" description="Verify if Any one of &#039;Shipping Companies&#039; or &#039;Shipping Page Link&#039; should exist" finished-at="2021-10-05T17:59:11Z" duration-ms="17407" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dashboard]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AllSitesShipping -->
+        <test-method is-config="true" signature="reset()[pri:0, instance:com.salesoptimize.testcases.TestCase_20@19d481b]" started-at="2021-10-05T17:59:11Z" name="reset" finished-at="2021-10-05T17:59:17Z" duration-ms="6438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reset -->
+      </class> <!-- com.salesoptimize.testcases.TestCase_20 -->
+      <class name="com.salesoptimize.testcases.TestCase_38">
+        <test-method is-config="true" signature="ExtentReportConfig(org.testng.ITestContext)[pri:0, instance:com.salesoptimize.testcases.TestCase_38@65f095f8]" started-at="2021-10-05T18:07:49Z" name="ExtentReportConfig" finished-at="2021-10-05T18:07:49Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@799c87]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExtentReportConfig -->
+        <test-method signature="IncludeMarketingAnalytics(int, java.lang.String)[pri:0, instance:com.salesoptimize.testcases.TestCase_38@65f095f8]" started-at="2021-10-05T18:07:49Z" name="IncludeMarketingAnalytics" description="Verify &#039;Marketing Analytics +&#039; should contain &#039;Doofinder&#039;" finished-at="2021-10-05T18:08:21Z" duration-ms="32574" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dashboard]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IncludeMarketingAnalytics -->
+        <test-method is-config="true" signature="reset()[pri:0, instance:com.salesoptimize.testcases.TestCase_38@65f095f8]" started-at="2021-10-05T18:08:21Z" name="reset" finished-at="2021-10-05T18:08:28Z" duration-ms="6493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reset -->
+      </class> <!-- com.salesoptimize.testcases.TestCase_38 -->
+      <class name="com.salesoptimize.testcases.TestCase_16">
+        <test-method signature="ExcludeFinanceProvider(int, java.lang.String)[pri:0, instance:com.salesoptimize.testcases.TestCase_16@2abf4075]" started-at="2021-10-05T17:57:15Z" name="ExcludeFinanceProvider" description="Finance Provider should not contain &#039;Santander&#039; UK" finished-at="2021-10-05T17:57:36Z" duration-ms="20195" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dashboard]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExcludeFinanceProvider -->
+        <test-method is-config="true" signature="ExtentReportConfig(org.testng.ITestContext)[pri:0, instance:com.salesoptimize.testcases.TestCase_16@2abf4075]" started-at="2021-10-05T17:57:15Z" name="ExtentReportConfig" finished-at="2021-10-05T17:57:15Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@799c87]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExtentReportConfig -->
+        <test-method is-config="true" signature="reset()[pri:0, instance:com.salesoptimize.testcases.TestCase_16@2abf4075]" started-at="2021-10-05T17:57:36Z" name="reset" finished-at="2021-10-05T17:57:43Z" duration-ms="6920" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reset -->
+      </class> <!-- com.salesoptimize.testcases.TestCase_16 -->
+      <class name="com.salesoptimize.testcases.TestCase_15">
+        <test-method is-config="true" signature="ExtentReportConfig(org.testng.ITestContext)[pri:0, instance:com.salesoptimize.testcases.TestCase_15@6a370f4]" started-at="2021-10-05T17:56:51Z" name="ExtentReportConfig" finished-at="2021-10-05T17:56:51Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@799c87]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExtentReportConfig -->
+        <test-method signature="IncludeFinanceProvider(int, java.lang.String)[pri:0, instance:com.salesoptimize.testcases.TestCase_15@6a370f4]" started-at="2021-10-05T17:56:51Z" name="IncludeFinanceProvider" description="Verify Finance Provider should contain &#039;Santander UK&#039;" finished-at="2021-10-05T17:57:09Z" duration-ms="18491" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dashboard]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IncludeFinanceProvider -->
+        <test-method is-config="true" signature="reset()[pri:0, instance:com.salesoptimize.testcases.TestCase_15@6a370f4]" started-at="2021-10-05T17:57:09Z" name="reset" finished-at="2021-10-05T17:57:15Z" duration-ms="6388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reset -->
+      </class> <!-- com.salesoptimize.testcases.TestCase_15 -->
+      <class name="com.salesoptimize.testcases.TestCase_37">
+        <test-method is-config="true" signature="ExtentReportConfig(org.testng.ITestContext)[pri:0, instance:com.salesoptimize.testcases.TestCase_37@34f7cfd9]" started-at="2021-10-05T18:07:18Z" name="ExtentReportConfig" finished-at="2021-10-05T18:07:18Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@799c87]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExtentReportConfig -->
+        <test-method signature="PresenceofYoutube(int, java.lang.String)[pri:0, instance:com.salesoptimize.testcases.TestCase_37@34f7cfd9]" started-at="2021-10-05T18:07:18Z" name="PresenceofYoutube" description="Verify Any of &#039;Youtube Views&#039; or &#039;Youtube Subscribers&#039; should exists" finished-at="2021-10-05T18:07:42Z" duration-ms="23657" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dashboard]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PresenceofYoutube -->
+        <test-method is-config="true" signature="reset()[pri:0, instance:com.salesoptimize.testcases.TestCase_37@34f7cfd9]" started-at="2021-10-05T18:07:42Z" name="reset" finished-at="2021-10-05T18:07:49Z" duration-ms="6498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reset -->
+      </class> <!-- com.salesoptimize.testcases.TestCase_37 -->
+      <class name="com.salesoptimize.testcases.TestCase_36">
+        <test-method is-config="true" signature="ExtentReportConfig(org.testng.ITestContext)[pri:0, instance:com.salesoptimize.testcases.TestCase_36@3a6bb9bf]" started-at="2021-10-05T18:06:48Z" name="ExtentReportConfig" finished-at="2021-10-05T18:06:48Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@799c87]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExtentReportConfig -->
+        <test-method signature="PresencOfInstagram(int, java.lang.String)[pri:0, instance:com.salesoptimize.testcases.TestCase_36@3a6bb9bf]" started-at="2021-10-05T18:06:48Z" name="PresencOfInstagram" description="Verify &#039;Instagram page link should exists under &#039;Website Overview&#039; section&#039;" finished-at="2021-10-05T18:07:12Z" duration-ms="23972" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dashboard]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PresencOfInstagram -->
+        <test-method is-config="true" signature="reset()[pri:0, instance:com.salesoptimize.testcases.TestCase_36@3a6bb9bf]" started-at="2021-10-05T18:07:12Z" name="reset" finished-at="2021-10-05T18:07:18Z" duration-ms="6528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reset -->
+      </class> <!-- com.salesoptimize.testcases.TestCase_36 -->
+      <class name="com.salesoptimize.testcases.TestCase_14">
+        <test-method is-config="true" signature="ExtentReportConfig(org.testng.ITestContext)[pri:0, instance:com.salesoptimize.testcases.TestCase_14@503d687a]" started-at="2021-10-05T17:56:00Z" name="ExtentReportConfig" finished-at="2021-10-05T17:56:00Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@799c87]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExtentReportConfig -->
+        <test-method signature="ExcludePaymentMethod(int, java.lang.String)[pri:0, instance:com.salesoptimize.testcases.TestCase_14@503d687a]" started-at="2021-10-05T17:56:00Z" name="ExcludePaymentMethod" description="Verify Payment Method does not contain &#039;Visa Debit&#039;" finished-at="2021-10-05T17:56:44Z" duration-ms="43565" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dashboard]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExcludePaymentMethod -->
+        <test-method is-config="true" signature="reset()[pri:0, instance:com.salesoptimize.testcases.TestCase_14@503d687a]" started-at="2021-10-05T17:56:44Z" name="reset" finished-at="2021-10-05T17:56:51Z" duration-ms="6721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reset -->
+      </class> <!-- com.salesoptimize.testcases.TestCase_14 -->
+      <class name="com.salesoptimize.testcases.TestCase_35">
+        <test-method signature="PresenceOfTwitter(int, java.lang.String)[pri:0, instance:com.salesoptimize.testcases.TestCase_35@10959ece]" started-at="2021-10-05T18:06:17Z" name="PresenceOfTwitter" description="Verify &#039;Twitter page link should exists under &#039;Website Overview&#039; section" finished-at="2021-10-05T18:06:41Z" duration-ms="24168" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dashboard]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PresenceOfTwitter -->
+        <test-method is-config="true" signature="ExtentReportConfig(org.testng.ITestContext)[pri:0, instance:com.salesoptimize.testcases.TestCase_35@10959ece]" started-at="2021-10-05T18:06:17Z" name="ExtentReportConfig" finished-at="2021-10-05T18:06:17Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@799c87]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExtentReportConfig -->
+        <test-method is-config="true" signature="reset()[pri:0, instance:com.salesoptimize.testcases.TestCase_35@10959ece]" started-at="2021-10-05T18:06:41Z" name="reset" finished-at="2021-10-05T18:06:48Z" duration-ms="6653" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reset -->
+      </class> <!-- com.salesoptimize.testcases.TestCase_35 -->
+      <class name="com.salesoptimize.testcases.TestCase_13">
+        <test-method signature="IncludePaymentMethod(int, java.lang.String)[pri:0, instance:com.salesoptimize.testcases.TestCase_13@62e7f11d]" started-at="2021-10-05T17:55:42Z" name="IncludePaymentMethod" description="Verify Payment Method should contain &#039;Visa Debit&#039;" finished-at="2021-10-05T17:55:54Z" duration-ms="11933" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dashboard]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IncludePaymentMethod -->
+        <test-method is-config="true" signature="ExtentReportConfig(org.testng.ITestContext)[pri:0, instance:com.salesoptimize.testcases.TestCase_13@62e7f11d]" started-at="2021-10-05T17:55:42Z" name="ExtentReportConfig" finished-at="2021-10-05T17:55:42Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@799c87]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExtentReportConfig -->
+        <test-method is-config="true" signature="reset()[pri:0, instance:com.salesoptimize.testcases.TestCase_13@62e7f11d]" started-at="2021-10-05T17:55:54Z" name="reset" finished-at="2021-10-05T17:56:00Z" duration-ms="6529" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reset -->
+      </class> <!-- com.salesoptimize.testcases.TestCase_13 -->
+      <class name="com.salesoptimize.testcases.TestCase_9">
+        <test-method is-config="true" signature="ExtentReportConfig(org.testng.ITestContext)[pri:0, instance:com.salesoptimize.testcases.TestCase_9@1649b0e6]" started-at="2021-10-05T17:53:17Z" name="ExtentReportConfig" finished-at="2021-10-05T17:53:17Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@799c87]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExtentReportConfig -->
+        <test-method signature="HasPhysicalLocation(int, java.lang.String)[pri:0, instance:com.salesoptimize.testcases.TestCase_9@1649b0e6]" started-at="2021-10-05T17:53:17Z" name="HasPhysicalLocation" description="Verify physical location should exists" finished-at="2021-10-05T17:53:32Z" duration-ms="14942" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dashboard]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HasPhysicalLocation -->
+        <test-method is-config="true" signature="reset()[pri:0, instance:com.salesoptimize.testcases.TestCase_9@1649b0e6]" started-at="2021-10-05T17:53:32Z" name="reset" finished-at="2021-10-05T17:53:39Z" duration-ms="6476" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reset -->
+      </class> <!-- com.salesoptimize.testcases.TestCase_9 -->
+      <class name="com.salesoptimize.testcases.TestCase_8">
+        <test-method signature="SelectIndustryAndSubIndustry(int, java.lang.String)[pri:0, instance:com.salesoptimize.testcases.TestCase_8@6a6afff2]" started-at="2021-10-05T17:52:47Z" name="SelectIndustryAndSubIndustry" description="Verify if User is able to select Industry as Retail and Sub Industry as Fashion &amp; Clothing" finished-at="2021-10-05T17:53:10Z" duration-ms="23056" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dashboard]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectIndustryAndSubIndustry -->
+        <test-method is-config="true" signature="ExtentReportConfig(org.testng.ITestContext)[pri:0, instance:com.salesoptimize.testcases.TestCase_8@6a6afff2]" started-at="2021-10-05T17:52:47Z" name="ExtentReportConfig" finished-at="2021-10-05T17:52:47Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@799c87]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExtentReportConfig -->
+        <test-method is-config="true" signature="reset()[pri:0, instance:com.salesoptimize.testcases.TestCase_8@6a6afff2]" started-at="2021-10-05T17:53:10Z" name="reset" finished-at="2021-10-05T17:53:17Z" duration-ms="7380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reset -->
+      </class> <!-- com.salesoptimize.testcases.TestCase_8 -->
+      <class name="com.salesoptimize.testcases.TestCase_19">
+        <test-method signature="EvidenceOfMultipleCurrencies(int, java.lang.String)[pri:0, instance:com.salesoptimize.testcases.TestCase_19@51f116b8]" started-at="2021-10-05T17:58:30Z" name="EvidenceOfMultipleCurrencies" description="Verify if Has Multiple Currencies&#039; should be &#039;Yes&#039;" finished-at="2021-10-05T17:58:47Z" duration-ms="17260" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dashboard]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EvidenceOfMultipleCurrencies -->
+        <test-method is-config="true" signature="ExtentReportConfig(org.testng.ITestContext)[pri:0, instance:com.salesoptimize.testcases.TestCase_19@51f116b8]" started-at="2021-10-05T17:58:30Z" name="ExtentReportConfig" finished-at="2021-10-05T17:58:30Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@799c87]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExtentReportConfig -->
+        <test-method is-config="true" signature="reset()[pri:0, instance:com.salesoptimize.testcases.TestCase_19@51f116b8]" started-at="2021-10-05T17:58:47Z" name="reset" finished-at="2021-10-05T17:58:53Z" duration-ms="6415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reset -->
+      </class> <!-- com.salesoptimize.testcases.TestCase_19 -->
+      <class name="com.salesoptimize.testcases.TestCase_7">
+        <test-method is-config="true" signature="ExtentReportConfig(org.testng.ITestContext)[pri:0, instance:com.salesoptimize.testcases.TestCase_7@366647c2]" started-at="2021-10-05T17:52:26Z" name="ExtentReportConfig" finished-at="2021-10-05T17:52:26Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@799c87]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExtentReportConfig -->
+        <test-method signature="Multiurllookup(int, java.lang.String)[pri:0, instance:com.salesoptimize.testcases.TestCase_7@366647c2]" started-at="2021-10-05T17:52:26Z" name="Multiurllookup" description="Verify Payment provider should contain Adyen or Apple Pay or Both (i.e. Ayden, Apple Pay)" finished-at="2021-10-05T17:52:41Z" duration-ms="14586" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dashboard]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Multiurllookup -->
+        <test-method is-config="true" signature="reset()[pri:0, instance:com.salesoptimize.testcases.TestCase_7@366647c2]" started-at="2021-10-05T17:52:41Z" name="reset" finished-at="2021-10-05T17:52:47Z" duration-ms="5729" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reset -->
+      </class> <!-- com.salesoptimize.testcases.TestCase_7 -->
+      <class name="com.salesoptimize.testcases.TestCase_18">
+        <test-method signature="EvidenceofMobileSite(int, java.lang.String)[pri:0, instance:com.salesoptimize.testcases.TestCase_18@4cc8eb05]" started-at="2021-10-05T17:58:06Z" name="EvidenceofMobileSite" description="Verify Is &#039;Mobile Enabled should&#039; be &#039;Yes" finished-at="2021-10-05T17:58:23Z" duration-ms="17144" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dashboard]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EvidenceofMobileSite -->
+        <test-method is-config="true" signature="ExtentReportConfig(org.testng.ITestContext)[pri:0, instance:com.salesoptimize.testcases.TestCase_18@4cc8eb05]" started-at="2021-10-05T17:58:06Z" name="ExtentReportConfig" finished-at="2021-10-05T17:58:06Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@799c87]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExtentReportConfig -->
+        <test-method is-config="true" signature="reset()[pri:0, instance:com.salesoptimize.testcases.TestCase_18@4cc8eb05]" started-at="2021-10-05T17:58:23Z" name="reset" finished-at="2021-10-05T17:58:30Z" duration-ms="6430" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reset -->
+      </class> <!-- com.salesoptimize.testcases.TestCase_18 -->
+      <class name="com.salesoptimize.testcases.TestCase_17">
+        <test-method signature="EvidenceOfOnlinePayments(int, java.lang.String)[pri:0, instance:com.salesoptimize.testcases.TestCase_17@770d3326]" started-at="2021-10-05T17:57:43Z" name="EvidenceOfOnlinePayments" description="Verify if Any of payment method or payment provider should exists" finished-at="2021-10-05T17:58:00Z" duration-ms="17099" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dashboard]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EvidenceOfOnlinePayments -->
+        <test-method is-config="true" signature="ExtentReportConfig(org.testng.ITestContext)[pri:0, instance:com.salesoptimize.testcases.TestCase_17@770d3326]" started-at="2021-10-05T17:57:43Z" name="ExtentReportConfig" finished-at="2021-10-05T17:57:43Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@799c87]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExtentReportConfig -->
+        <test-method is-config="true" signature="reset()[pri:0, instance:com.salesoptimize.testcases.TestCase_17@770d3326]" started-at="2021-10-05T17:58:00Z" name="reset" finished-at="2021-10-05T17:58:06Z" duration-ms="6439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reset -->
+      </class> <!-- com.salesoptimize.testcases.TestCase_17 -->
+      <class name="com.salesoptimize.testcases.TestCase_39">
+        <test-method is-config="true" signature="ExtentReportConfig(org.testng.ITestContext)[pri:0, instance:com.salesoptimize.testcases.TestCase_39@59af0466]" started-at="2021-10-05T18:08:28Z" name="ExtentReportConfig" finished-at="2021-10-05T18:08:28Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@799c87]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExtentReportConfig -->
+        <test-method signature="TwitterFollowers(int, java.lang.String)[pri:0, instance:com.salesoptimize.testcases.TestCase_39@59af0466]" started-at="2021-10-05T18:08:28Z" name="TwitterFollowers" description="Verify &#039;Marketing Analytics +&#039; should not contain &#039;Doofinder&#039;" finished-at="2021-10-05T18:08:51Z" duration-ms="23660" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dashboard]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TwitterFollowers -->
+        <test-method is-config="true" signature="reset()[pri:0, instance:com.salesoptimize.testcases.TestCase_39@59af0466]" started-at="2021-10-05T18:08:51Z" name="reset" finished-at="2021-10-05T18:08:58Z" duration-ms="6436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reset -->
+      </class> <!-- com.salesoptimize.testcases.TestCase_39 -->
+      <class name="com.salesoptimize.testcases.TestCase_6">
+        <test-method signature="AddSalesforceCRMExport(int, java.lang.String)[pri:0, instance:com.salesoptimize.testcases.TestCase_6@482bce4f]" started-at="2021-10-05T17:52:18Z" name="AddSalesforceCRMExport" description="Verify User gets redirected to SalesOptimize crm export setup page" finished-at="2021-10-05T17:52:21Z" duration-ms="2847" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dashboard]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddSalesforceCRMExport -->
+        <test-method is-config="true" signature="ExtentReportConfig(org.testng.ITestContext)[pri:0, instance:com.salesoptimize.testcases.TestCase_6@482bce4f]" started-at="2021-10-05T17:52:18Z" name="ExtentReportConfig" finished-at="2021-10-05T17:52:18Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@799c87]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExtentReportConfig -->
+        <test-method is-config="true" signature="reset()[pri:0, instance:com.salesoptimize.testcases.TestCase_6@482bce4f]" started-at="2021-10-05T17:52:21Z" name="reset" finished-at="2021-10-05T17:52:26Z" duration-ms="5330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reset -->
+      </class> <!-- com.salesoptimize.testcases.TestCase_6 -->
+      <class name="com.salesoptimize.testcases.TestCase_5">
+        <test-method signature="IncludePaymentProvider(int, java.lang.String)[pri:0, instance:com.salesoptimize.testcases.TestCase_5@55b53d44]" started-at="2021-10-05T17:51:57Z" name="IncludePaymentProvider" description="Verify Payment provider should contain Adyen or Apple Pay or Both (i.e. Ayden, Apple Pay)" finished-at="2021-10-05T17:52:12Z" duration-ms="15166" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dashboard]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IncludePaymentProvider -->
+        <test-method is-config="true" signature="ExtentReportConfig(org.testng.ITestContext)[pri:0, instance:com.salesoptimize.testcases.TestCase_5@55b53d44]" started-at="2021-10-05T17:51:57Z" name="ExtentReportConfig" finished-at="2021-10-05T17:51:57Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@799c87]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExtentReportConfig -->
+        <test-method is-config="true" signature="reset()[pri:0, instance:com.salesoptimize.testcases.TestCase_5@55b53d44]" started-at="2021-10-05T17:52:12Z" name="reset" finished-at="2021-10-05T17:52:18Z" duration-ms="6374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reset -->
+      </class> <!-- com.salesoptimize.testcases.TestCase_5 -->
+      <class name="com.salesoptimize.testcases.TestCase_4">
+        <test-method signature="selectEstimatedOnlineSales(int, java.lang.String)[pri:0, instance:com.salesoptimize.testcases.TestCase_4@5fa07e12]" started-at="2021-10-05T17:51:34Z" name="selectEstimatedOnlineSales" description="Verify if User is able to select Company Turnover as 1M and above" finished-at="2021-10-05T17:51:50Z" duration-ms="16472" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dashboard]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectEstimatedOnlineSales -->
+        <test-method is-config="true" signature="ExtentReportConfig(org.testng.ITestContext)[pri:0, instance:com.salesoptimize.testcases.TestCase_4@5fa07e12]" started-at="2021-10-05T17:51:34Z" name="ExtentReportConfig" finished-at="2021-10-05T17:51:34Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@799c87]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExtentReportConfig -->
+        <test-method is-config="true" signature="reset()[pri:0, instance:com.salesoptimize.testcases.TestCase_4@5fa07e12]" started-at="2021-10-05T17:51:50Z" name="reset" finished-at="2021-10-05T17:51:57Z" duration-ms="6386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reset -->
+      </class> <!-- com.salesoptimize.testcases.TestCase_4 -->
+      <class name="com.salesoptimize.testcases.TestCase_3">
+        <test-method is-config="true" signature="ExtentReportConfig(org.testng.ITestContext)[pri:0, instance:com.salesoptimize.testcases.TestCase_3@d6e7bab]" started-at="2021-10-05T17:50:43Z" name="ExtentReportConfig" finished-at="2021-10-05T17:50:43Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@799c87]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExtentReportConfig -->
+        <test-method signature="SelectGlobalRegion(int, java.lang.String)[pri:0, instance:com.salesoptimize.testcases.TestCase_3@d6e7bab]" started-at="2021-10-05T17:50:43Z" name="SelectGlobalRegion" description="Verify if User is able to Select Global Region + Business Country + City + Zip Code + Timezone" finished-at="2021-10-05T17:51:27Z" duration-ms="43973" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dashboard]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectGlobalRegion -->
+        <test-method is-config="true" signature="reset()[pri:0, instance:com.salesoptimize.testcases.TestCase_3@d6e7bab]" started-at="2021-10-05T17:51:27Z" name="reset" finished-at="2021-10-05T17:51:34Z" duration-ms="6881" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reset -->
+      </class> <!-- com.salesoptimize.testcases.TestCase_3 -->
+      <class name="com.salesoptimize.testcases.TestCase_2">
+        <test-method signature="ExportPurchasedLeadToSalesforce(int, java.lang.String)[pri:0, instance:com.salesoptimize.testcases.TestCase_2@3315d2d7]" started-at="2021-10-05T17:50:12Z" name="ExportPurchasedLeadToSalesforce" description="Verify User should be redirected to Salesforce on clicking the link and should be able to see the exported lead in Salesforce" finished-at="2021-10-05T17:50:34Z" duration-ms="21501" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dashboard]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input type="checkbox" class="primary-contact" id="4083ea9a-3930-4a4d-ad5a-a381f720c58c" checked="checked" style="background:#FFBF00; border: 1px solid red;"> is not clickable at point (1229, 6). Other element would receive the click: <div id="gen-error" class="dialog-overlay" style="display: block;">...</div>
+  (Session info: chrome=94.0.4606.61)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'TECHNEPLUS_GG', ip: '192.168.1.41', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61144}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 42a7b891dfcff2c5e15db03ce71140eb]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input type="checkbox" class="primary-contact" id="4083ea9a-3930-4a4d-ad5a-a381f720c58c" checked="checked" style="background:#FFBF00; border: 1px solid red;"> is not clickable at point (1229, 6). Other element would receive the click: <div id="gen-error" class="dialog-overlay" style="display: block;">...</div>
+  (Session info: chrome=94.0.4606.61)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'TECHNEPLUS_GG', ip: '192.168.1.41', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61144}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 42a7b891dfcff2c5e15db03ce71140eb
+	at com.salesoptimize.testcases.TestCase_2.ExportPurchasedLeadToSalesforce(TestCase_2.java:20)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1297)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input type="checkbox" class="primary-contact" id="4083ea9a-3930-4a4d-ad5a-a381f720c58c" checked="checked" style="background:#FFBF00; border: 1px solid red;"> is not clickable at point (1229, 6). Other element would receive the click: <div id="gen-error" class="dialog-overlay" style="display: block;">...</div>
+  (Session info: chrome=94.0.4606.61)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'TECHNEPLUS_GG', ip: '192.168.1.41', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61144}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 42a7b891dfcff2c5e15db03ce71140eb
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.salesoptimize.utility.CommonMethod.Click(CommonMethod.java:1004)
+	at com.salesoptimize.reusablemethods.ReusableMethodsDashboard.ExportPurchasedLeadToSalesforce(ReusableMethodsDashboard.java:283)
+	at com.salesoptimize.testcases.TestCase_2.ExportPurchasedLeadToSalesforce(TestCase_2.java:16)
+	... 26 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExportPurchasedLeadToSalesforce -->
+        <test-method is-config="true" signature="ExtentReportConfig(org.testng.ITestContext)[pri:0, instance:com.salesoptimize.testcases.TestCase_2@3315d2d7]" started-at="2021-10-05T17:50:12Z" name="ExtentReportConfig" finished-at="2021-10-05T17:50:12Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@799c87]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExtentReportConfig -->
+        <test-method is-config="true" signature="reset()[pri:0, instance:com.salesoptimize.testcases.TestCase_2@3315d2d7]" started-at="2021-10-05T17:50:36Z" name="reset" finished-at="2021-10-05T17:50:43Z" duration-ms="6765" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reset -->
+      </class> <!-- com.salesoptimize.testcases.TestCase_2 -->
+      <class name="com.salesoptimize.testcases.TestCase_1">
+        <test-method is-config="true" signature="ExtentReportConfig(org.testng.ITestContext)[pri:0, instance:com.salesoptimize.testcases.TestCase_1@29647f75]" started-at="2021-10-05T17:49:10Z" name="ExtentReportConfig" finished-at="2021-10-05T17:49:10Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@799c87]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExtentReportConfig -->
+        <test-method signature="ExportAList(int, java.lang.String)[pri:0, instance:com.salesoptimize.testcases.TestCase_1@29647f75]" started-at="2021-10-05T17:49:10Z" name="ExportAList" description="Verify The number of records in Excel and CSV format should match with the number of lines in the Bulk Download Screen" finished-at="2021-10-05T17:50:07Z" duration-ms="56931" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dashboard]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExportAList -->
+        <test-method is-config="true" signature="reset()[pri:0, instance:com.salesoptimize.testcases.TestCase_1@29647f75]" started-at="2021-10-05T17:50:07Z" name="reset" finished-at="2021-10-05T17:50:12Z" duration-ms="5350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reset -->
+      </class> <!-- com.salesoptimize.testcases.TestCase_1 -->
+      <class name="com.salesoptimize.testcases.TestCase_30">
+        <test-method signature="TwitterFollowers(int, java.lang.String)[pri:0, instance:com.salesoptimize.testcases.TestCase_30@73ee04c8]" started-at="2021-10-05T18:03:26Z" name="TwitterFollowers" description="Verify &#039;Twitter Followers&#039; should be &#039;&gt;1M&#039;&#039;" finished-at="2021-10-05T18:03:54Z" duration-ms="27513" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dashboard]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TwitterFollowers -->
+        <test-method is-config="true" signature="ExtentReportConfig(org.testng.ITestContext)[pri:0, instance:com.salesoptimize.testcases.TestCase_30@73ee04c8]" started-at="2021-10-05T18:03:26Z" name="ExtentReportConfig" finished-at="2021-10-05T18:03:26Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@799c87]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExtentReportConfig -->
+        <test-method is-config="true" signature="reset()[pri:0, instance:com.salesoptimize.testcases.TestCase_30@73ee04c8]" started-at="2021-10-05T18:03:54Z" name="reset" finished-at="2021-10-05T18:04:00Z" duration-ms="6409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reset -->
+      </class> <!-- com.salesoptimize.testcases.TestCase_30 -->
+      <class name="com.salesoptimize.testcases.TestCase_34">
+        <test-method is-config="true" signature="ExtentReportConfig(org.testng.ITestContext)[pri:0, instance:com.salesoptimize.testcases.TestCase_34@68c72235]" started-at="2021-10-05T18:05:45Z" name="ExtentReportConfig" finished-at="2021-10-05T18:05:45Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@799c87]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExtentReportConfig -->
+        <test-method signature="PresenceOfFacebook(int, java.lang.String)[pri:0, instance:com.salesoptimize.testcases.TestCase_34@68c72235]" started-at="2021-10-05T18:05:45Z" name="PresenceOfFacebook" description="Verify Facebook page link should exists under &#039;Website Overview&#039; section" finished-at="2021-10-05T18:06:11Z" duration-ms="26078" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dashboard]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PresenceOfFacebook -->
+        <test-method is-config="true" signature="reset()[pri:0, instance:com.salesoptimize.testcases.TestCase_34@68c72235]" started-at="2021-10-05T18:06:11Z" name="reset" finished-at="2021-10-05T18:06:17Z" duration-ms="6461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reset -->
+      </class> <!-- com.salesoptimize.testcases.TestCase_34 -->
+      <class name="com.salesoptimize.testcases.TestCase_12">
+        <test-method is-config="true" signature="ExtentReportConfig(org.testng.ITestContext)[pri:0, instance:com.salesoptimize.testcases.TestCase_12@3972a855]" started-at="2021-10-05T17:55:20Z" name="ExtentReportConfig" finished-at="2021-10-05T17:55:20Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@799c87]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExtentReportConfig -->
+        <test-method signature="ExcludePaymentProvider(int, java.lang.String)[pri:0, instance:com.salesoptimize.testcases.TestCase_12@3972a855]" started-at="2021-10-05T17:55:20Z" name="ExcludePaymentProvider" description="Verify Payment Provider should not contain &#039; Adyen&#039;" finished-at="2021-10-05T17:55:35Z" duration-ms="15213" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dashboard]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExcludePaymentProvider -->
+        <test-method is-config="true" signature="reset()[pri:0, instance:com.salesoptimize.testcases.TestCase_12@3972a855]" started-at="2021-10-05T17:55:35Z" name="reset" finished-at="2021-10-05T17:55:42Z" duration-ms="6411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reset -->
+      </class> <!-- com.salesoptimize.testcases.TestCase_12 -->
+      <class name="com.salesoptimize.landingpage.LoginSalesOptimizeTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.salesoptimize.landingpage.LoginSalesOptimizeTest@355ce81c]" started-at="2021-10-05T17:48:52Z" name="setup" finished-at="2021-10-05T17:49:01Z" duration-ms="8853" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.salesoptimize.landingpage.LoginSalesOptimizeTest@355ce81c]" started-at="2021-10-05T17:49:01Z" name="login" finished-at="2021-10-05T17:49:01Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="ExtentReportConfig(org.testng.ITestContext)[pri:0, instance:com.salesoptimize.landingpage.LoginSalesOptimizeTest@355ce81c]" started-at="2021-10-05T17:49:01Z" name="ExtentReportConfig" finished-at="2021-10-05T17:49:01Z" duration-ms="103" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@799c87]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExtentReportConfig -->
+        <test-method signature="LoginSalesOptimize()[pri:0, instance:com.salesoptimize.landingpage.LoginSalesOptimizeTest@355ce81c]" started-at="2021-10-05T17:49:01Z" name="LoginSalesOptimize" description="Verify if User was able to login successfully" finished-at="2021-10-05T17:49:04Z" duration-ms="3565" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginSalesOptimize -->
+        <test-method is-config="true" signature="reset()[pri:0, instance:com.salesoptimize.landingpage.LoginSalesOptimizeTest@355ce81c]" started-at="2021-10-05T17:49:04Z" name="reset" finished-at="2021-10-05T17:49:10Z" duration-ms="5827" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reset -->
+        <test-method is-config="true" signature="end()[pri:0, instance:com.salesoptimize.landingpage.LoginSalesOptimizeTest@355ce81c]" started-at="2021-10-05T18:10:42Z" name="end" finished-at="2021-10-05T18:10:43Z" duration-ms="923" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+      </class> <!-- com.salesoptimize.landingpage.LoginSalesOptimizeTest -->
+      <class name="com.salesoptimize.testcases.TestCase_11">
+        <test-method signature="ExportMustHaveEmailAddressPhoneNumber(int, java.lang.String)[pri:0, instance:com.salesoptimize.testcases.TestCase_11@4da4253]" started-at="2021-10-05T17:54:27Z" name="ExportMustHaveEmailAddressPhoneNumber" description="Verify All records in the downloaded file should have at least one &#039;Company Email&#039; and &#039;Company Phone Number&#039;" finished-at="2021-10-05T17:55:15Z" duration-ms="47167" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dashboard]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExportMustHaveEmailAddressPhoneNumber -->
+        <test-method is-config="true" signature="ExtentReportConfig(org.testng.ITestContext)[pri:0, instance:com.salesoptimize.testcases.TestCase_11@4da4253]" started-at="2021-10-05T17:54:27Z" name="ExtentReportConfig" finished-at="2021-10-05T17:54:27Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@799c87]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExtentReportConfig -->
+        <test-method is-config="true" signature="reset()[pri:0, instance:com.salesoptimize.testcases.TestCase_11@4da4253]" started-at="2021-10-05T17:55:15Z" name="reset" finished-at="2021-10-05T17:55:20Z" duration-ms="5567" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reset -->
+      </class> <!-- com.salesoptimize.testcases.TestCase_11 -->
+      <class name="com.salesoptimize.testcases.TestCase_33">
+        <test-method is-config="true" signature="ExtentReportConfig(org.testng.ITestContext)[pri:0, instance:com.salesoptimize.testcases.TestCase_33@6b8ca3c8]" started-at="2021-10-05T18:05:08Z" name="ExtentReportConfig" finished-at="2021-10-05T18:05:08Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@799c87]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExtentReportConfig -->
+        <test-method signature="YouTubeSubscribers(int, java.lang.String)[pri:0, instance:com.salesoptimize.testcases.TestCase_33@6b8ca3c8]" started-at="2021-10-05T18:05:08Z" name="YouTubeSubscribers" description="Verify &#039;YouTube Subscribers&#039; should be &#039;&gt;1M&#039;" finished-at="2021-10-05T18:05:39Z" duration-ms="31618" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dashboard]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- YouTubeSubscribers -->
+        <test-method is-config="true" signature="reset()[pri:0, instance:com.salesoptimize.testcases.TestCase_33@6b8ca3c8]" started-at="2021-10-05T18:05:39Z" name="reset" finished-at="2021-10-05T18:05:45Z" duration-ms="5283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reset -->
+      </class> <!-- com.salesoptimize.testcases.TestCase_33 -->
+      <class name="com.salesoptimize.testcases.TestCase_10">
+        <test-method signature="ContactDepartment(int, java.lang.String)[pri:0, instance:com.salesoptimize.testcases.TestCase_10@865dd6]" started-at="2021-10-05T17:53:39Z" name="ContactDepartment" description="Verify The number of records must contain &#039;Contact Department&#039; and &#039;Contact Level&#039; as &#039;Leadership&#039; and &#039;C-Level&#039;, respectively." finished-at="2021-10-05T17:54:22Z" duration-ms="43229" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dashboard]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContactDepartment -->
+        <test-method is-config="true" signature="ExtentReportConfig(org.testng.ITestContext)[pri:0, instance:com.salesoptimize.testcases.TestCase_10@865dd6]" started-at="2021-10-05T17:53:39Z" name="ExtentReportConfig" finished-at="2021-10-05T17:53:39Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@799c87]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExtentReportConfig -->
+        <test-method is-config="true" signature="reset()[pri:0, instance:com.salesoptimize.testcases.TestCase_10@865dd6]" started-at="2021-10-05T17:54:22Z" name="reset" finished-at="2021-10-05T17:54:27Z" duration-ms="5644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reset -->
+      </class> <!-- com.salesoptimize.testcases.TestCase_10 -->
+      <class name="com.salesoptimize.testcases.TestCase_32">
+        <test-method is-config="true" signature="ExtentReportConfig(org.testng.ITestContext)[pri:0, instance:com.salesoptimize.testcases.TestCase_32@49dc7102]" started-at="2021-10-05T18:04:34Z" name="ExtentReportConfig" finished-at="2021-10-05T18:04:34Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@799c87]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExtentReportConfig -->
+        <test-method signature="YouTubeViews(int, java.lang.String)[pri:0, instance:com.salesoptimize.testcases.TestCase_32@49dc7102]" started-at="2021-10-05T18:04:34Z" name="YouTubeViews" description="Verify YouTube Views&#039; should be &#039;&gt;1M&#039;" finished-at="2021-10-05T18:05:01Z" duration-ms="27365" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dashboard]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- YouTubeViews -->
+        <test-method is-config="true" signature="reset()[pri:0, instance:com.salesoptimize.testcases.TestCase_32@49dc7102]" started-at="2021-10-05T18:05:01Z" name="reset" finished-at="2021-10-05T18:05:08Z" duration-ms="6487" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reset -->
+      </class> <!-- com.salesoptimize.testcases.TestCase_32 -->
+      <class name="com.salesoptimize.testcases.TestCase_31">
+        <test-method is-config="true" signature="ExtentReportConfig(org.testng.ITestContext)[pri:0, instance:com.salesoptimize.testcases.TestCase_31@7671cb68]" started-at="2021-10-05T18:04:00Z" name="ExtentReportConfig" finished-at="2021-10-05T18:04:00Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@799c87]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExtentReportConfig -->
+        <test-method signature="InstagramFollowers(int, java.lang.String)[pri:0, instance:com.salesoptimize.testcases.TestCase_31@7671cb68]" started-at="2021-10-05T18:04:00Z" name="InstagramFollowers" description="Verify Instagram Followers&#039; should be &#039;&gt;1M&#039;" finished-at="2021-10-05T18:04:27Z" duration-ms="27292" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dashboard]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InstagramFollowers -->
+        <test-method is-config="true" signature="reset()[pri:0, instance:com.salesoptimize.testcases.TestCase_31@7671cb68]" started-at="2021-10-05T18:04:27Z" name="reset" finished-at="2021-10-05T18:04:34Z" duration-ms="6449" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reset -->
+      </class> <!-- com.salesoptimize.testcases.TestCase_31 -->
+    </test> <!-- SalesOptimizeSuite -->
+  </suite> <!-- Reports -->
+  <suite started-at="2021-10-05T12:40:43Z" name="MasterTestNg" finished-at="2021-10-05T12:40:43Z" duration-ms="0">
+    <groups>
+    </groups>
+  </suite> <!-- MasterTestNg -->
+</testng-results>

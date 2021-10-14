@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Reports]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="com.salesoptimize.utility.ExtentListeners"/>
+    <listener class-name="com.salesoptimize.utility.CustomTestNGReporter"/>
+  </listeners>
+  <test name="SalesOptimizeSuite(failed)">
+    <parameter name="rowNum" value="2"/>
+    <parameter name="dashboardSheet" value="Dashboard"/>
+    <classes>
+      <class name="com.salesoptimize.testcases.TestCase_8">
+        <methods>
+          <include name="setup"/>
+          <include name="reset"/>
+          <include name="end"/>
+          <include name="login"/>
+          <include name="SelectIndustryAndSubIndustry"/>
+          <include name="ExtentReportConfig"/>
+        </methods>
+      </class> <!-- com.salesoptimize.testcases.TestCase_8 -->
+      <class name="com.salesoptimize.testcases.TestCase_32">
+        <methods>
+          <include name="setup"/>
+          <include name="reset"/>
+          <include name="end"/>
+          <include name="login"/>
+          <include name="YouTubeViews"/>
+          <include name="ExtentReportConfig"/>
+        </methods>
+      </class> <!-- com.salesoptimize.testcases.TestCase_32 -->
+      <class name="com.salesoptimize.testcases.TestCase_40">
+        <methods>
+          <include name="setup"/>
+          <include name="reset"/>
+          <include name="TopLevelDomain"/>
+          <include name="end"/>
+          <include name="login"/>
+          <include name="ExtentReportConfig"/>
+        </methods>
+      </class> <!-- com.salesoptimize.testcases.TestCase_40 -->
+      <class name="com.salesoptimize.testcases.TestCase_11">
+        <methods>
+          <include name="setup"/>
+          <include name="reset"/>
+          <include name="end"/>
+          <include name="login"/>
+          <include name="ExtentReportConfig"/>
+          <include name="ExportMustHaveEmailAddressPhoneNumber"/>
+        </methods>
+      </class> <!-- com.salesoptimize.testcases.TestCase_11 -->
+      <class name="com.salesoptimize.testcases.TestCase_27">
+        <methods>
+          <include name="setup"/>
+          <include name="reset"/>
+          <include name="end"/>
+          <include name="IncludeWebsiteTechnology"/>
+          <include name="login"/>
+          <include name="ExtentReportConfig"/>
+        </methods>
+      </class> <!-- com.salesoptimize.testcases.TestCase_27 -->
+      <class name="com.salesoptimize.testcases.TestCase_5">
+        <methods>
+          <include name="setup"/>
+          <include name="reset"/>
+          <include name="end"/>
+          <include name="login"/>
+          <include name="IncludePaymentProvider"/>
+          <include name="ExtentReportConfig"/>
+        </methods>
+      </class> <!-- com.salesoptimize.testcases.TestCase_5 -->
+      <class name="com.salesoptimize.testcases.TestCase_19">
+        <methods>
+          <include name="setup"/>
+          <include name="reset"/>
+          <include name="end"/>
+          <include name="login"/>
+          <include name="EvidenceOfMultipleCurrencies"/>
+          <include name="ExtentReportConfig"/>
+        </methods>
+      </class> <!-- com.salesoptimize.testcases.TestCase_19 -->
+      <class name="com.salesoptimize.testcases.TestCase_7">
+        <methods>
+          <include name="setup"/>
+          <include name="reset"/>
+          <include name="end"/>
+          <include name="login"/>
+          <include name="Multiurllookup"/>
+          <include name="ExtentReportConfig"/>
+        </methods>
+      </class> <!-- com.salesoptimize.testcases.TestCase_7 -->
+      <class name="com.salesoptimize.testcases.TestCase_10">
+        <methods>
+          <include name="setup"/>
+          <include name="reset"/>
+          <include name="end"/>
+          <include name="login"/>
+          <include name="ContactDepartment"/>
+          <include name="ExtentReportConfig"/>
+        </methods>
+      </class> <!-- com.salesoptimize.testcases.TestCase_10 -->
+      <class name="com.salesoptimize.testcases.TestCase_39">
+        <methods>
+          <include name="setup"/>
+          <include name="reset"/>
+          <include name="end"/>
+          <include name="login"/>
+          <include name="TwitterFollowers"/>
+          <include name="ExtentReportConfig"/>
+        </methods>
+      </class> <!-- com.salesoptimize.testcases.TestCase_39 -->
+      <class name="com.salesoptimize.testcases.TestCase_16">
+        <methods>
+          <include name="setup"/>
+          <include name="reset"/>
+          <include name="end"/>
+          <include name="login"/>
+          <include name="ExcludeFinanceProvider"/>
+          <include name="ExtentReportConfig"/>
+        </methods>
+      </class> <!-- com.salesoptimize.testcases.TestCase_16 -->
+      <class name="com.salesoptimize.testcases.TestCase_29">
+        <methods>
+          <include name="setup"/>
+          <include name="reset"/>
+          <include name="end"/>
+          <include name="login"/>
+          <include name="ExtentReportConfig"/>
+          <include name="ExcludeWebsiteTechnology"/>
+        </methods>
+      </class> <!-- com.salesoptimize.testcases.TestCase_29 -->
+      <class name="com.salesoptimize.testcases.TestCase_18">
+        <methods>
+          <include name="setup"/>
+          <include name="reset"/>
+          <include name="end"/>
+          <include name="login"/>
+          <include name="ExtentReportConfig"/>
+          <include name="EvidenceofMobileSite"/>
+        </methods>
+      </class> <!-- com.salesoptimize.testcases.TestCase_18 -->
+      <class name="com.salesoptimize.testcases.TestCase_31">
+        <methods>
+          <include name="setup"/>
+          <include name="reset"/>
+          <include name="end"/>
+          <include name="login"/>
+          <include name="ExtentReportConfig"/>
+          <include name="InstagramFollowers"/>
+        </methods>
+      </class> <!-- com.salesoptimize.testcases.TestCase_31 -->
+      <class name="com.salesoptimize.testcases.TestCase_35">
+        <methods>
+          <include name="setup"/>
+          <include name="reset"/>
+          <include name="end"/>
+          <include name="login"/>
+          <include name="ExtentReportConfig"/>
+          <include name="PresenceOfTwitter"/>
+        </methods>
+      </class> <!-- com.salesoptimize.testcases.TestCase_35 -->
+      <class name="com.salesoptimize.testcases.TestCase_14">
+        <methods>
+          <include name="setup"/>
+          <include name="reset"/>
+          <include name="ExcludePaymentMethod"/>
+          <include name="end"/>
+          <include name="login"/>
+          <include name="ExtentReportConfig"/>
+        </methods>
+      </class> <!-- com.salesoptimize.testcases.TestCase_14 -->
+      <class name="com.salesoptimize.testcases.TestCase_2">
+        <methods>
+          <include name="setup"/>
+          <include name="reset"/>
+          <include name="end"/>
+          <include name="login"/>
+          <include name="ExportPurchasedLeadToSalesforce"/>
+          <include name="ExtentReportConfig"/>
+        </methods>
+      </class> <!-- com.salesoptimize.testcases.TestCase_2 -->
+      <class name="com.salesoptimize.testcases.TestCase_38">
+        <methods>
+          <include name="setup"/>
+          <include name="reset"/>
+          <include name="end"/>
+          <include name="login"/>
+          <include name="ExtentReportConfig"/>
+          <include name="IncludeMarketingAnalytics"/>
+        </methods>
+      </class> <!-- com.salesoptimize.testcases.TestCase_38 -->
+      <class name="com.salesoptimize.testcases.TestCase_28">
+        <methods>
+          <include name="setup"/>
+          <include name="reset"/>
+          <include name="end"/>
+          <include name="login"/>
+          <include name="ExcludeWebsiteTechnology"/>
+          <include name="ExtentReportConfig"/>
+        </methods>
+      </class> <!-- com.salesoptimize.testcases.TestCase_28 -->
+      <class name="com.salesoptimize.testcases.TestCase_22">
+        <methods>
+          <include name="setup"/>
+          <include name="reset"/>
+          <include name="end"/>
+          <include name="login"/>
+          <include name="ExcludeShippingCompanies"/>
+          <include name="ExtentReportConfig"/>
+        </methods>
+      </class> <!-- com.salesoptimize.testcases.TestCase_22 -->
+      <class name="com.salesoptimize.testcases.TestCase_36">
+        <methods>
+          <include name="setup"/>
+          <include name="reset"/>
+          <include name="end"/>
+          <include name="login"/>
+          <include name="PresencOfInstagram"/>
+          <include name="ExtentReportConfig"/>
+        </methods>
+      </class> <!-- com.salesoptimize.testcases.TestCase_36 -->
+      <class name="com.salesoptimize.testcases.TestCase_21">
+        <methods>
+          <include name="setup"/>
+          <include name="reset"/>
+          <include name="end"/>
+          <include name="login"/>
+          <include name="IncludeShippingCompanies"/>
+          <include name="ExtentReportConfig"/>
+        </methods>
+      </class> <!-- com.salesoptimize.testcases.TestCase_21 -->
+      <class name="com.salesoptimize.testcases.TestCase_33">
+        <methods>
+          <include name="setup"/>
+          <include name="reset"/>
+          <include name="end"/>
+          <include name="login"/>
+          <include name="ExtentReportConfig"/>
+          <include name="YouTubeSubscribers"/>
+        </methods>
+      </class> <!-- com.salesoptimize.testcases.TestCase_33 -->
+      <class name="com.salesoptimize.testcases.TestCase_20">
+        <methods>
+          <include name="setup"/>
+          <include name="reset"/>
+          <include name="end"/>
+          <include name="AllSitesShipping"/>
+          <include name="login"/>
+          <include name="ExtentReportConfig"/>
+        </methods>
+      </class> <!-- com.salesoptimize.testcases.TestCase_20 -->
+      <class name="com.salesoptimize.testcases.TestCase_6">
+        <methods>
+          <include name="setup"/>
+          <include name="reset"/>
+          <include name="end"/>
+          <include name="login"/>
+          <include name="AddSalesforceCRMExport"/>
+          <include name="ExtentReportConfig"/>
+        </methods>
+      </class> <!-- com.salesoptimize.testcases.TestCase_6 -->
+      <class name="com.salesoptimize.testcases.TestCase_17">
+        <methods>
+          <include name="setup"/>
+          <include name="reset"/>
+          <include name="end"/>
+          <include name="login"/>
+          <include name="EvidenceOfOnlinePayments"/>
+          <include name="ExtentReportConfig"/>
+        </methods>
+      </class> <!-- com.salesoptimize.testcases.TestCase_17 -->
+      <class name="com.salesoptimize.testcases.TestCase_3">
+        <methods>
+          <include name="setup"/>
+          <include name="reset"/>
+          <include name="SelectGlobalRegion"/>
+          <include name="end"/>
+          <include name="login"/>
+          <include name="ExtentReportConfig"/>
+        </methods>
+      </class> <!-- com.salesoptimize.testcases.TestCase_3 -->
+      <class name="com.salesoptimize.testcases.TestCase_15">
+        <methods>
+          <include name="setup"/>
+          <include name="reset"/>
+          <include name="IncludeFinanceProvider"/>
+          <include name="end"/>
+          <include name="login"/>
+          <include name="ExtentReportConfig"/>
+        </methods>
+      </class> <!-- com.salesoptimize.testcases.TestCase_15 -->
+      <class name="com.salesoptimize.testcases.TestCase_26">
+        <methods>
+          <include name="setup"/>
+          <include name="reset"/>
+          <include name="end"/>
+          <include name="login"/>
+          <include name="ExtentReportConfig"/>
+          <include name="EvidenceOfInternationalShipping"/>
+        </methods>
+      </class> <!-- com.salesoptimize.testcases.TestCase_26 -->
+      <class name="com.salesoptimize.testcases.TestCase_24">
+        <methods>
+          <include name="VisitorTrafficRegionCountry"/>
+          <include name="setup"/>
+          <include name="reset"/>
+          <include name="end"/>
+          <include name="login"/>
+          <include name="ExtentReportConfig"/>
+        </methods>
+      </class> <!-- com.salesoptimize.testcases.TestCase_24 -->
+      <class name="com.salesoptimize.testcases.TestCase_37">
+        <methods>
+          <include name="setup"/>
+          <include name="reset"/>
+          <include name="end"/>
+          <include name="login"/>
+          <include name="PresenceofYoutube"/>
+          <include name="ExtentReportConfig"/>
+        </methods>
+      </class> <!-- com.salesoptimize.testcases.TestCase_37 -->
+      <class name="com.salesoptimize.testcases.TestCase_1">
+        <methods>
+          <include name="setup"/>
+          <include name="reset"/>
+          <include name="ExportAList" invocation-numbers="0"/>
+          <include name="end"/>
+          <include name="login"/>
+          <include name="ExtentReportConfig"/>
+        </methods>
+      </class> <!-- com.salesoptimize.testcases.TestCase_1 -->
+      <class name="com.salesoptimize.testcases.TestCase_13">
+        <methods>
+          <include name="setup"/>
+          <include name="reset"/>
+          <include name="end"/>
+          <include name="login"/>
+          <include name="ExtentReportConfig"/>
+          <include name="IncludePaymentMethod"/>
+        </methods>
+      </class> <!-- com.salesoptimize.testcases.TestCase_13 -->
+      <class name="com.salesoptimize.testcases.TestCase_34">
+        <methods>
+          <include name="setup"/>
+          <include name="reset"/>
+          <include name="end"/>
+          <include name="login"/>
+          <include name="PresenceOfFacebook"/>
+          <include name="ExtentReportConfig"/>
+        </methods>
+      </class> <!-- com.salesoptimize.testcases.TestCase_34 -->
+      <class name="com.salesoptimize.testcases.TestCase_23">
+        <methods>
+          <include name="setup"/>
+          <include name="reset"/>
+          <include name="EvidenceofFreeShipping"/>
+          <include name="end"/>
+          <include name="login"/>
+          <include name="ExtentReportConfig"/>
+        </methods>
+      </class> <!-- com.salesoptimize.testcases.TestCase_23 -->
+      <class name="com.salesoptimize.testcases.TestCase_12">
+        <methods>
+          <include name="setup"/>
+          <include name="reset"/>
+          <include name="end"/>
+          <include name="login"/>
+          <include name="ExtentReportConfig"/>
+          <include name="ExcludePaymentProvider"/>
+        </methods>
+      </class> <!-- com.salesoptimize.testcases.TestCase_12 -->
+      <class name="com.salesoptimize.testcases.TestCase_25">
+        <methods>
+          <include name="setup"/>
+          <include name="reset"/>
+          <include name="end"/>
+          <include name="login"/>
+          <include name="EvidenceofInternationalPresence"/>
+          <include name="ExtentReportConfig"/>
+        </methods>
+      </class> <!-- com.salesoptimize.testcases.TestCase_25 -->
+      <class name="com.salesoptimize.testcases.TestCase_30">
+        <methods>
+          <include name="setup"/>
+          <include name="reset"/>
+          <include name="TwitterFollowers"/>
+          <include name="end"/>
+          <include name="login"/>
+          <include name="ExtentReportConfig"/>
+        </methods>
+      </class> <!-- com.salesoptimize.testcases.TestCase_30 -->
+      <class name="com.salesoptimize.testcases.TestCase_4">
+        <methods>
+          <include name="setup"/>
+          <include name="reset"/>
+          <include name="end"/>
+          <include name="login"/>
+          <include name="selectEstimatedOnlineSales"/>
+          <include name="ExtentReportConfig"/>
+        </methods>
+      </class> <!-- com.salesoptimize.testcases.TestCase_4 -->
+      <class name="com.salesoptimize.testcases.TestCase_9">
+        <methods>
+          <include name="setup"/>
+          <include name="reset"/>
+          <include name="end"/>
+          <include name="HasPhysicalLocation"/>
+          <include name="login"/>
+          <include name="ExtentReportConfig"/>
+        </methods>
+      </class> <!-- com.salesoptimize.testcases.TestCase_9 -->
+    </classes>
+  </test> <!-- SalesOptimizeSuite(failed) -->
+</suite> <!-- Failed suite [Reports] -->

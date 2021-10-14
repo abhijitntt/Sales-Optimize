@@ -1,0 +1,2774 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">2 suites, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Reports" class="navigator-link">
+              <span class="suite-name border-failed">Reports</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Reports" class="navigator-link ">
+                    <span>D:\SalesOptimizeTest\TestNGSuite\SalesOptimizeTestSuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Reports" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Reports" class="navigator-link ">
+                    <span>17 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Reports" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Reports" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Reports" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Reports" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">41 methods, 1 failed,   40 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Reports" class="hide-methods failed suite-Reports"> (hide)</a> <!-- hide-methods failed suite-Reports -->
+                      <a href="#" panel-name="suite-Reports" class="show-methods failed suite-Reports"> (show)</a> <!-- show-methods failed suite-Reports -->
+                    </span>
+                    <div class="method-list-content failed suite-Reports">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Reports" title="com.salesoptimize.testcases.TestCase_2" class="method navigator-link" hash-for-method="ExportPurchasedLeadToSalesforce(2, Dashboard)">ExportPurchasedLeadToSalesforce(2, Dashboard)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Reports -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Reports" class="hide-methods passed suite-Reports"> (hide)</a> <!-- hide-methods passed suite-Reports -->
+                      <a href="#" panel-name="suite-Reports" class="show-methods passed suite-Reports"> (show)</a> <!-- show-methods passed suite-Reports -->
+                    </span>
+                    <div class="method-list-content passed suite-Reports">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Reports" title="com.salesoptimize.testcases.TestCase_6" class="method navigator-link" hash-for-method="AddSalesforceCRMExport(2, Dashboard)">AddSalesforceCRMExport(2, Dashboard)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Reports" title="com.salesoptimize.testcases.TestCase_20" class="method navigator-link" hash-for-method="AllSitesShipping(2, Dashboard)">AllSitesShipping(2, Dashboard)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Reports" title="com.salesoptimize.testcases.TestCase_10" class="method navigator-link" hash-for-method="ContactDepartment(2, Dashboard)">ContactDepartment(2, Dashboard)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Reports" title="com.salesoptimize.testcases.TestCase_26" class="method navigator-link" hash-for-method="EvidenceOfInternationalShipping(2, Dashboard)">EvidenceOfInternationalShipping(2, Dashboard)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Reports" title="com.salesoptimize.testcases.TestCase_19" class="method navigator-link" hash-for-method="EvidenceOfMultipleCurrencies(2, Dashboard)">EvidenceOfMultipleCurrencies(2, Dashboard)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Reports" title="com.salesoptimize.testcases.TestCase_17" class="method navigator-link" hash-for-method="EvidenceOfOnlinePayments(2, Dashboard)">EvidenceOfOnlinePayments(2, Dashboard)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Reports" title="com.salesoptimize.testcases.TestCase_23" class="method navigator-link" hash-for-method="EvidenceofFreeShipping(2, Dashboard)">EvidenceofFreeShipping(2, Dashboard)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Reports" title="com.salesoptimize.testcases.TestCase_25" class="method navigator-link" hash-for-method="EvidenceofInternationalPresence(2, Dashboard)">EvidenceofInternationalPresence(2, Dashboard)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Reports" title="com.salesoptimize.testcases.TestCase_18" class="method navigator-link" hash-for-method="EvidenceofMobileSite(2, Dashboard)">EvidenceofMobileSite(2, Dashboard)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Reports" title="com.salesoptimize.testcases.TestCase_16" class="method navigator-link" hash-for-method="ExcludeFinanceProvider(2, Dashboard)">ExcludeFinanceProvider(2, Dashboard)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Reports" title="com.salesoptimize.testcases.TestCase_14" class="method navigator-link" hash-for-method="ExcludePaymentMethod(2, Dashboard)">ExcludePaymentMethod(2, Dashboard)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Reports" title="com.salesoptimize.testcases.TestCase_12" class="method navigator-link" hash-for-method="ExcludePaymentProvider(2, Dashboard)">ExcludePaymentProvider(2, Dashboard)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Reports" title="com.salesoptimize.testcases.TestCase_22" class="method navigator-link" hash-for-method="ExcludeShippingCompanies(2, Dashboard)">ExcludeShippingCompanies(2, Dashboard)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Reports" title="com.salesoptimize.testcases.TestCase_29" class="method navigator-link" hash-for-method="ExcludeWebsiteTechnology(2, Dashboard)">ExcludeWebsiteTechnology(2, Dashboard)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Reports" title="com.salesoptimize.testcases.TestCase_28" class="method navigator-link" hash-for-method="ExcludeWebsiteTechnology(2, Dashboard)">ExcludeWebsiteTechnology(2, Dashboard)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Reports" title="com.salesoptimize.testcases.TestCase_1" class="method navigator-link" hash-for-method="ExportAList(2, Dashboard)">ExportAList(2, Dashboard)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Reports" title="com.salesoptimize.testcases.TestCase_11" class="method navigator-link" hash-for-method="ExportMustHaveEmailAddressPhoneNumber(2, Dashboard)">ExportMustHaveEmailAddressPhoneNumber(2, Dashboard)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Reports" title="com.salesoptimize.testcases.TestCase_9" class="method navigator-link" hash-for-method="HasPhysicalLocation(2, Dashboard)">HasPhysicalLocation(2, Dashboard)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Reports" title="com.salesoptimize.testcases.TestCase_15" class="method navigator-link" hash-for-method="IncludeFinanceProvider(2, Dashboard)">IncludeFinanceProvider(2, Dashboard)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Reports" title="com.salesoptimize.testcases.TestCase_38" class="method navigator-link" hash-for-method="IncludeMarketingAnalytics(2, Dashboard)">IncludeMarketingAnalytics(2, Dashboard)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Reports" title="com.salesoptimize.testcases.TestCase_13" class="method navigator-link" hash-for-method="IncludePaymentMethod(2, Dashboard)">IncludePaymentMethod(2, Dashboard)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Reports" title="com.salesoptimize.testcases.TestCase_5" class="method navigator-link" hash-for-method="IncludePaymentProvider(2, Dashboard)">IncludePaymentProvider(2, Dashboard)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Reports" title="com.salesoptimize.testcases.TestCase_21" class="method navigator-link" hash-for-method="IncludeShippingCompanies(2, Dashboard)">IncludeShippingCompanies(2, Dashboard)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Reports" title="com.salesoptimize.testcases.TestCase_27" class="method navigator-link" hash-for-method="IncludeWebsiteTechnology(2, Dashboard)">IncludeWebsiteTechnology(2, Dashboard)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Reports" title="com.salesoptimize.testcases.TestCase_31" class="method navigator-link" hash-for-method="InstagramFollowers(2, Dashboard)">InstagramFollowers(2, Dashboard)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Reports" title="com.salesoptimize.landingpage.LoginSalesOptimizeTest" class="method navigator-link" hash-for-method="LoginSalesOptimize">LoginSalesOptimize</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Reports" title="com.salesoptimize.testcases.TestCase_7" class="method navigator-link" hash-for-method="Multiurllookup(2, Dashboard)">Multiurllookup(2, Dashboard)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Reports" title="com.salesoptimize.testcases.TestCase_36" class="method navigator-link" hash-for-method="PresencOfInstagram(2, Dashboard)">PresencOfInstagram(2, Dashboard)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Reports" title="com.salesoptimize.testcases.TestCase_34" class="method navigator-link" hash-for-method="PresenceOfFacebook(2, Dashboard)">PresenceOfFacebook(2, Dashboard)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Reports" title="com.salesoptimize.testcases.TestCase_35" class="method navigator-link" hash-for-method="PresenceOfTwitter(2, Dashboard)">PresenceOfTwitter(2, Dashboard)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Reports" title="com.salesoptimize.testcases.TestCase_37" class="method navigator-link" hash-for-method="PresenceofYoutube(2, Dashboard)">PresenceofYoutube(2, Dashboard)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Reports" title="com.salesoptimize.testcases.TestCase_3" class="method navigator-link" hash-for-method="SelectGlobalRegion(2, Dashboard)">SelectGlobalRegion(2, Dashboard)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Reports" title="com.salesoptimize.testcases.TestCase_8" class="method navigator-link" hash-for-method="SelectIndustryAndSubIndustry(2, Dashboard)">SelectIndustryAndSubIndustry(2, Dashboard)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Reports" title="com.salesoptimize.testcases.TestCase_40" class="method navigator-link" hash-for-method="TopLevelDomain(2, Dashboard)">TopLevelDomain(2, Dashboard)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Reports" title="com.salesoptimize.testcases.TestCase_30" class="method navigator-link" hash-for-method="TwitterFollowers(2, Dashboard)">TwitterFollowers(2, Dashboard)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Reports" title="com.salesoptimize.testcases.TestCase_39" class="method navigator-link" hash-for-method="TwitterFollowers(2, Dashboard)">TwitterFollowers(2, Dashboard)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Reports" title="com.salesoptimize.testcases.TestCase_24" class="method navigator-link" hash-for-method="VisitorTrafficRegionCountry(2, Dashboard)">VisitorTrafficRegionCountry(2, Dashboard)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Reports" title="com.salesoptimize.testcases.TestCase_33" class="method navigator-link" hash-for-method="YouTubeSubscribers(2, Dashboard)">YouTubeSubscribers(2, Dashboard)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Reports" title="com.salesoptimize.testcases.TestCase_32" class="method navigator-link" hash-for-method="YouTubeViews(2, Dashboard)">YouTubeViews(2, Dashboard)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Reports" title="com.salesoptimize.testcases.TestCase_4" class="method navigator-link" hash-for-method="selectEstimatedOnlineSales(2, Dashboard)">selectEstimatedOnlineSales(2, Dashboard)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Reports -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Reports" class="panel Reports">
+          <div class="suite-Reports-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.salesoptimize.testcases.TestCase_2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ExportPurchasedLeadToSalesforce(2, Dashboard)">
+                  </a> <!-- ExportPurchasedLeadToSalesforce(2, Dashboard) -->
+                  <span class="method-name">ExportPurchasedLeadToSalesforce</span>
+                  <span class="parameters">(2, Dashboard)</span>
+                  <div class="stack-trace">java.lang.RuntimeException: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;input type=&quot;checkbox&quot; class=&quot;primary-contact&quot; id=&quot;4083ea9a-3930-4a4d-ad5a-a381f720c58c&quot; checked=&quot;checked&quot; style=&quot;background:#FFBF00; border: 1px solid red;&quot;&gt; is not clickable at point (1229, 6). Other element would receive the click: &lt;div id=&quot;gen-error&quot; class=&quot;dialog-overlay&quot; style=&quot;display: block;&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=94.0.4606.61)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;TECHNEPLUS_GG&apos;, ip: &apos;192.168.1.41&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.11&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61144}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 42a7b891dfcff2c5e15db03ce71140eb
+	at com.salesoptimize.testcases.TestCase_2.ExportPurchasedLeadToSalesforce(TestCase_2.java:20)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;input type=&quot;checkbox&quot; class=&quot;primary-contact&quot; id=&quot;4083ea9a-3930-4a4d-ad5a-a381f720c58c&quot; checked=&quot;checked&quot; style=&quot;background:#FFBF00; border: 1px solid red;&quot;&gt; is not clickable at point (1229, 6). Other element would receive the click: &lt;div id=&quot;gen-error&quot; class=&quot;dialog-overlay&quot; style=&quot;display: block;&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=94.0.4606.61)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;TECHNEPLUS_GG&apos;, ip: &apos;192.168.1.41&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.11&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61144}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 42a7b891dfcff2c5e15db03ce71140eb
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.salesoptimize.utility.CommonMethod.Click(CommonMethod.java:1004)
+	at com.salesoptimize.reusablemethods.ReusableMethodsDashboard.ExportPurchasedLeadToSalesforce(ReusableMethodsDashboard.java:283)
+	at com.salesoptimize.testcases.TestCase_2.ExportPurchasedLeadToSalesforce(TestCase_2.java:16)
+	... 26 more
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify User should be redirected to Salesforce on clicking the link and should be able to see the exported lead in Salesforce)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Reports-class-failed -->
+          <div class="suite-Reports-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.salesoptimize.testcases.TestCase_4</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectEstimatedOnlineSales(2, Dashboard)">
+                  </a> <!-- selectEstimatedOnlineSales(2, Dashboard) -->
+                  <span class="method-name">selectEstimatedOnlineSales</span>
+                  <span class="parameters">(2, Dashboard)</span>
+                  <em>
+(Verify if User is able to select Company Turnover as 1M and above)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Reports-class-passed -->
+          <div class="suite-Reports-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.salesoptimize.testcases.TestCase_23</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="EvidenceofFreeShipping(2, Dashboard)">
+                  </a> <!-- EvidenceofFreeShipping(2, Dashboard) -->
+                  <span class="method-name">EvidenceofFreeShipping</span>
+                  <span class="parameters">(2, Dashboard)</span>
+                  <em>
+(Verify Shipping companies should contains 'Free Shipping', 'Same/Next Day Shipping', 'Returns)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Reports-class-passed -->
+          <div class="suite-Reports-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.salesoptimize.testcases.TestCase_32</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="YouTubeViews(2, Dashboard)">
+                  </a> <!-- YouTubeViews(2, Dashboard) -->
+                  <span class="method-name">YouTubeViews</span>
+                  <span class="parameters">(2, Dashboard)</span>
+                  <em>
+(Verify YouTube Views' should be '>1M')                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Reports-class-passed -->
+          <div class="suite-Reports-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.salesoptimize.testcases.TestCase_34</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="PresenceOfFacebook(2, Dashboard)">
+                  </a> <!-- PresenceOfFacebook(2, Dashboard) -->
+                  <span class="method-name">PresenceOfFacebook</span>
+                  <span class="parameters">(2, Dashboard)</span>
+                  <em>
+(Verify Facebook page link should exists under 'Website Overview' section)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Reports-class-passed -->
+          <div class="suite-Reports-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.salesoptimize.testcases.TestCase_11</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ExportMustHaveEmailAddressPhoneNumber(2, Dashboard)">
+                  </a> <!-- ExportMustHaveEmailAddressPhoneNumber(2, Dashboard) -->
+                  <span class="method-name">ExportMustHaveEmailAddressPhoneNumber</span>
+                  <span class="parameters">(2, Dashboard)</span>
+                  <em>
+(Verify All records in the downloaded file should have at least one 'Company Email' and 'Company Phone Number')                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Reports-class-passed -->
+          <div class="suite-Reports-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.salesoptimize.testcases.TestCase_15</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="IncludeFinanceProvider(2, Dashboard)">
+                  </a> <!-- IncludeFinanceProvider(2, Dashboard) -->
+                  <span class="method-name">IncludeFinanceProvider</span>
+                  <span class="parameters">(2, Dashboard)</span>
+                  <em>
+(Verify Finance Provider should contain 'Santander UK')                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Reports-class-passed -->
+          <div class="suite-Reports-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.salesoptimize.testcases.TestCase_6</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddSalesforceCRMExport(2, Dashboard)">
+                  </a> <!-- AddSalesforceCRMExport(2, Dashboard) -->
+                  <span class="method-name">AddSalesforceCRMExport</span>
+                  <span class="parameters">(2, Dashboard)</span>
+                  <em>
+(Verify User gets redirected to SalesOptimize crm export setup page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Reports-class-passed -->
+          <div class="suite-Reports-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.salesoptimize.testcases.TestCase_20</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AllSitesShipping(2, Dashboard)">
+                  </a> <!-- AllSitesShipping(2, Dashboard) -->
+                  <span class="method-name">AllSitesShipping</span>
+                  <span class="parameters">(2, Dashboard)</span>
+                  <em>
+(Verify if Any one of 'Shipping Companies' or 'Shipping Page Link' should exist)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Reports-class-passed -->
+          <div class="suite-Reports-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.salesoptimize.testcases.TestCase_29</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ExcludeWebsiteTechnology(2, Dashboard)">
+                  </a> <!-- ExcludeWebsiteTechnology(2, Dashboard) -->
+                  <span class="method-name">ExcludeWebsiteTechnology</span>
+                  <span class="parameters">(2, Dashboard)</span>
+                  <em>
+(Verify Facebook Likes' should be '>1M')                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Reports-class-passed -->
+          <div class="suite-Reports-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.salesoptimize.testcases.TestCase_17</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="EvidenceOfOnlinePayments(2, Dashboard)">
+                  </a> <!-- EvidenceOfOnlinePayments(2, Dashboard) -->
+                  <span class="method-name">EvidenceOfOnlinePayments</span>
+                  <span class="parameters">(2, Dashboard)</span>
+                  <em>
+(Verify if Any of payment method or payment provider should exists)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Reports-class-passed -->
+          <div class="suite-Reports-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.salesoptimize.testcases.TestCase_3</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SelectGlobalRegion(2, Dashboard)">
+                  </a> <!-- SelectGlobalRegion(2, Dashboard) -->
+                  <span class="method-name">SelectGlobalRegion</span>
+                  <span class="parameters">(2, Dashboard)</span>
+                  <em>
+(Verify if User is able to Select Global Region + Business Country + City + Zip Code + Timezone)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Reports-class-passed -->
+          <div class="suite-Reports-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.salesoptimize.testcases.TestCase_5</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="IncludePaymentProvider(2, Dashboard)">
+                  </a> <!-- IncludePaymentProvider(2, Dashboard) -->
+                  <span class="method-name">IncludePaymentProvider</span>
+                  <span class="parameters">(2, Dashboard)</span>
+                  <em>
+(Verify Payment provider should contain Adyen or Apple Pay or Both (i.e. Ayden, Apple Pay))                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Reports-class-passed -->
+          <div class="suite-Reports-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.salesoptimize.testcases.TestCase_38</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="IncludeMarketingAnalytics(2, Dashboard)">
+                  </a> <!-- IncludeMarketingAnalytics(2, Dashboard) -->
+                  <span class="method-name">IncludeMarketingAnalytics</span>
+                  <span class="parameters">(2, Dashboard)</span>
+                  <em>
+(Verify 'Marketing Analytics +' should contain 'Doofinder')                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Reports-class-passed -->
+          <div class="suite-Reports-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.salesoptimize.testcases.TestCase_31</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="InstagramFollowers(2, Dashboard)">
+                  </a> <!-- InstagramFollowers(2, Dashboard) -->
+                  <span class="method-name">InstagramFollowers</span>
+                  <span class="parameters">(2, Dashboard)</span>
+                  <em>
+(Verify Instagram Followers' should be '>1M')                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Reports-class-passed -->
+          <div class="suite-Reports-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.salesoptimize.testcases.TestCase_7</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Multiurllookup(2, Dashboard)">
+                  </a> <!-- Multiurllookup(2, Dashboard) -->
+                  <span class="method-name">Multiurllookup</span>
+                  <span class="parameters">(2, Dashboard)</span>
+                  <em>
+(Verify Payment provider should contain Adyen or Apple Pay or Both (i.e. Ayden, Apple Pay))                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Reports-class-passed -->
+          <div class="suite-Reports-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.salesoptimize.testcases.TestCase_19</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="EvidenceOfMultipleCurrencies(2, Dashboard)">
+                  </a> <!-- EvidenceOfMultipleCurrencies(2, Dashboard) -->
+                  <span class="method-name">EvidenceOfMultipleCurrencies</span>
+                  <span class="parameters">(2, Dashboard)</span>
+                  <em>
+(Verify if Has Multiple Currencies' should be 'Yes')                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Reports-class-passed -->
+          <div class="suite-Reports-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.salesoptimize.testcases.TestCase_18</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="EvidenceofMobileSite(2, Dashboard)">
+                  </a> <!-- EvidenceofMobileSite(2, Dashboard) -->
+                  <span class="method-name">EvidenceofMobileSite</span>
+                  <span class="parameters">(2, Dashboard)</span>
+                  <em>
+(Verify Is 'Mobile Enabled should' be 'Yes)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Reports-class-passed -->
+          <div class="suite-Reports-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.salesoptimize.testcases.TestCase_22</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ExcludeShippingCompanies(2, Dashboard)">
+                  </a> <!-- ExcludeShippingCompanies(2, Dashboard) -->
+                  <span class="method-name">ExcludeShippingCompanies</span>
+                  <span class="parameters">(2, Dashboard)</span>
+                  <em>
+(Verify Shipping Companies not contain 'An Post')                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Reports-class-passed -->
+          <div class="suite-Reports-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.salesoptimize.testcases.TestCase_12</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ExcludePaymentProvider(2, Dashboard)">
+                  </a> <!-- ExcludePaymentProvider(2, Dashboard) -->
+                  <span class="method-name">ExcludePaymentProvider</span>
+                  <span class="parameters">(2, Dashboard)</span>
+                  <em>
+(Verify Payment Provider should not contain ' Adyen')                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Reports-class-passed -->
+          <div class="suite-Reports-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.salesoptimize.testcases.TestCase_8</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SelectIndustryAndSubIndustry(2, Dashboard)">
+                  </a> <!-- SelectIndustryAndSubIndustry(2, Dashboard) -->
+                  <span class="method-name">SelectIndustryAndSubIndustry</span>
+                  <span class="parameters">(2, Dashboard)</span>
+                  <em>
+(Verify if User is able to select Industry as Retail and Sub Industry as Fashion & Clothing)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Reports-class-passed -->
+          <div class="suite-Reports-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.salesoptimize.testcases.TestCase_25</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="EvidenceofInternationalPresence(2, Dashboard)">
+                  </a> <!-- EvidenceofInternationalPresence(2, Dashboard) -->
+                  <span class="method-name">EvidenceofInternationalPresence</span>
+                  <span class="parameters">(2, Dashboard)</span>
+                  <em>
+(Verify Has International Domains value should be 'Yes')                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Reports-class-passed -->
+          <div class="suite-Reports-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.salesoptimize.testcases.TestCase_30</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TwitterFollowers(2, Dashboard)">
+                  </a> <!-- TwitterFollowers(2, Dashboard) -->
+                  <span class="method-name">TwitterFollowers</span>
+                  <span class="parameters">(2, Dashboard)</span>
+                  <em>
+(Verify 'Twitter Followers' should be '>1M'')                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Reports-class-passed -->
+          <div class="suite-Reports-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.salesoptimize.testcases.TestCase_26</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="EvidenceOfInternationalShipping(2, Dashboard)">
+                  </a> <!-- EvidenceOfInternationalShipping(2, Dashboard) -->
+                  <span class="method-name">EvidenceOfInternationalShipping</span>
+                  <span class="parameters">(2, Dashboard)</span>
+                  <em>
+(Verify Shipping companies' value should contain 'International Delivery')                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Reports-class-passed -->
+          <div class="suite-Reports-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.salesoptimize.testcases.TestCase_28</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ExcludeWebsiteTechnology(2, Dashboard)">
+                  </a> <!-- ExcludeWebsiteTechnology(2, Dashboard) -->
+                  <span class="method-name">ExcludeWebsiteTechnology</span>
+                  <span class="parameters">(2, Dashboard)</span>
+                  <em>
+(Verify Website Technology should not contain 'Magento')                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Reports-class-passed -->
+          <div class="suite-Reports-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.salesoptimize.testcases.TestCase_14</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ExcludePaymentMethod(2, Dashboard)">
+                  </a> <!-- ExcludePaymentMethod(2, Dashboard) -->
+                  <span class="method-name">ExcludePaymentMethod</span>
+                  <span class="parameters">(2, Dashboard)</span>
+                  <em>
+(Verify Payment Method does not contain 'Visa Debit')                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Reports-class-passed -->
+          <div class="suite-Reports-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.salesoptimize.testcases.TestCase_35</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="PresenceOfTwitter(2, Dashboard)">
+                  </a> <!-- PresenceOfTwitter(2, Dashboard) -->
+                  <span class="method-name">PresenceOfTwitter</span>
+                  <span class="parameters">(2, Dashboard)</span>
+                  <em>
+(Verify 'Twitter page link should exists under 'Website Overview' section)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Reports-class-passed -->
+          <div class="suite-Reports-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.salesoptimize.testcases.TestCase_16</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ExcludeFinanceProvider(2, Dashboard)">
+                  </a> <!-- ExcludeFinanceProvider(2, Dashboard) -->
+                  <span class="method-name">ExcludeFinanceProvider</span>
+                  <span class="parameters">(2, Dashboard)</span>
+                  <em>
+(Finance Provider should not contain 'Santander' UK)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Reports-class-passed -->
+          <div class="suite-Reports-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.salesoptimize.testcases.TestCase_24</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VisitorTrafficRegionCountry(2, Dashboard)">
+                  </a> <!-- VisitorTrafficRegionCountry(2, Dashboard) -->
+                  <span class="method-name">VisitorTrafficRegionCountry</span>
+                  <span class="parameters">(2, Dashboard)</span>
+                  <em>
+(Verify Alexa Traffic Information' shoud contain country Germany)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Reports-class-passed -->
+          <div class="suite-Reports-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.salesoptimize.testcases.TestCase_37</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="PresenceofYoutube(2, Dashboard)">
+                  </a> <!-- PresenceofYoutube(2, Dashboard) -->
+                  <span class="method-name">PresenceofYoutube</span>
+                  <span class="parameters">(2, Dashboard)</span>
+                  <em>
+(Verify Any of 'Youtube Views' or 'Youtube Subscribers' should exists)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Reports-class-passed -->
+          <div class="suite-Reports-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.salesoptimize.testcases.TestCase_9</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="HasPhysicalLocation(2, Dashboard)">
+                  </a> <!-- HasPhysicalLocation(2, Dashboard) -->
+                  <span class="method-name">HasPhysicalLocation</span>
+                  <span class="parameters">(2, Dashboard)</span>
+                  <em>
+(Verify physical location should exists)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Reports-class-passed -->
+          <div class="suite-Reports-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.salesoptimize.testcases.TestCase_13</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="IncludePaymentMethod(2, Dashboard)">
+                  </a> <!-- IncludePaymentMethod(2, Dashboard) -->
+                  <span class="method-name">IncludePaymentMethod</span>
+                  <span class="parameters">(2, Dashboard)</span>
+                  <em>
+(Verify Payment Method should contain 'Visa Debit')                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Reports-class-passed -->
+          <div class="suite-Reports-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.salesoptimize.testcases.TestCase_10</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ContactDepartment(2, Dashboard)">
+                  </a> <!-- ContactDepartment(2, Dashboard) -->
+                  <span class="method-name">ContactDepartment</span>
+                  <span class="parameters">(2, Dashboard)</span>
+                  <em>
+(Verify The number of records must contain 'Contact Department' and 'Contact Level' as 'Leadership' and 'C-Level', respectively.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Reports-class-passed -->
+          <div class="suite-Reports-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.salesoptimize.testcases.TestCase_27</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="IncludeWebsiteTechnology(2, Dashboard)">
+                  </a> <!-- IncludeWebsiteTechnology(2, Dashboard) -->
+                  <span class="method-name">IncludeWebsiteTechnology</span>
+                  <span class="parameters">(2, Dashboard)</span>
+                  <em>
+(Verify Website Technology should contain 'Magento')                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Reports-class-passed -->
+          <div class="suite-Reports-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.salesoptimize.testcases.TestCase_21</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="IncludeShippingCompanies(2, Dashboard)">
+                  </a> <!-- IncludeShippingCompanies(2, Dashboard) -->
+                  <span class="method-name">IncludeShippingCompanies</span>
+                  <span class="parameters">(2, Dashboard)</span>
+                  <em>
+(Verify Shipping Companies should contain 'An Post')                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Reports-class-passed -->
+          <div class="suite-Reports-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.salesoptimize.testcases.TestCase_40</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TopLevelDomain(2, Dashboard)">
+                  </a> <!-- TopLevelDomain(2, Dashboard) -->
+                  <span class="method-name">TopLevelDomain</span>
+                  <span class="parameters">(2, Dashboard)</span>
+                  <em>
+(Verify Simple Url should end with '.com')                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Reports-class-passed -->
+          <div class="suite-Reports-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.salesoptimize.testcases.TestCase_36</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="PresencOfInstagram(2, Dashboard)">
+                  </a> <!-- PresencOfInstagram(2, Dashboard) -->
+                  <span class="method-name">PresencOfInstagram</span>
+                  <span class="parameters">(2, Dashboard)</span>
+                  <em>
+(Verify 'Instagram page link should exists under 'Website Overview' section')                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Reports-class-passed -->
+          <div class="suite-Reports-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.salesoptimize.testcases.TestCase_1</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ExportAList(2, Dashboard)">
+                  </a> <!-- ExportAList(2, Dashboard) -->
+                  <span class="method-name">ExportAList</span>
+                  <span class="parameters">(2, Dashboard)</span>
+                  <em>
+(Verify The number of records in Excel and CSV format should match with the number of lines in the Bulk Download Screen)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Reports-class-passed -->
+          <div class="suite-Reports-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.salesoptimize.testcases.TestCase_39</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TwitterFollowers(2, Dashboard)">
+                  </a> <!-- TwitterFollowers(2, Dashboard) -->
+                  <span class="method-name">TwitterFollowers</span>
+                  <span class="parameters">(2, Dashboard)</span>
+                  <em>
+(Verify 'Marketing Analytics +' should not contain 'Doofinder')                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Reports-class-passed -->
+          <div class="suite-Reports-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.salesoptimize.landingpage.LoginSalesOptimizeTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginSalesOptimize">
+                  </a> <!-- LoginSalesOptimize -->
+                  <span class="method-name">LoginSalesOptimize</span>
+                  <em>
+(Verify if User was able to login successfully)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Reports-class-passed -->
+          <div class="suite-Reports-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.salesoptimize.testcases.TestCase_33</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="YouTubeSubscribers(2, Dashboard)">
+                  </a> <!-- YouTubeSubscribers(2, Dashboard) -->
+                  <span class="method-name">YouTubeSubscribers</span>
+                  <span class="parameters">(2, Dashboard)</span>
+                  <em>
+(Verify 'YouTube Subscribers' should be '>1M')                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Reports-class-passed -->
+        </div> <!-- panel Reports -->
+        <div panel-name="suite-MasterTestNg" class="panel MasterTestNg">
+        </div> <!-- panel MasterTestNg -->
+        <div panel-name="test-xml-Reports" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\SalesOptimizeTest\TestNGSuite\SalesOptimizeTestSuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Reports&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.salesoptimize.utility.ExtentListeners&quot;/&gt;
+    &lt;listener class-name=&quot;com.salesoptimize.utility.CustomTestNGReporter&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;SalesOptimizeSuite&quot;&gt;
+    &lt;parameter name=&quot;rowNum&quot; value=&quot;2&quot;/&gt;
+    &lt;parameter name=&quot;dashboardSheet&quot; value=&quot;Dashboard&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.salesoptimize.landingpage.LoginSalesOptimizeTest&quot;/&gt;
+      &lt;class name=&quot;com.salesoptimize.testcases.TestCase_1&quot;/&gt;
+      &lt;class name=&quot;com.salesoptimize.testcases.TestCase_2&quot;/&gt;
+      &lt;class name=&quot;com.salesoptimize.testcases.TestCase_3&quot;/&gt;
+      &lt;class name=&quot;com.salesoptimize.testcases.TestCase_4&quot;/&gt;
+      &lt;class name=&quot;com.salesoptimize.testcases.TestCase_5&quot;/&gt;
+      &lt;class name=&quot;com.salesoptimize.testcases.TestCase_6&quot;/&gt;
+      &lt;class name=&quot;com.salesoptimize.testcases.TestCase_7&quot;/&gt;
+      &lt;class name=&quot;com.salesoptimize.testcases.TestCase_8&quot;/&gt;
+      &lt;class name=&quot;com.salesoptimize.testcases.TestCase_9&quot;/&gt;
+      &lt;class name=&quot;com.salesoptimize.testcases.TestCase_10&quot;/&gt;
+      &lt;class name=&quot;com.salesoptimize.testcases.TestCase_11&quot;/&gt;
+      &lt;class name=&quot;com.salesoptimize.testcases.TestCase_12&quot;/&gt;
+      &lt;class name=&quot;com.salesoptimize.testcases.TestCase_13&quot;/&gt;
+      &lt;class name=&quot;com.salesoptimize.testcases.TestCase_14&quot;/&gt;
+      &lt;class name=&quot;com.salesoptimize.testcases.TestCase_15&quot;/&gt;
+      &lt;class name=&quot;com.salesoptimize.testcases.TestCase_16&quot;/&gt;
+      &lt;class name=&quot;com.salesoptimize.testcases.TestCase_17&quot;/&gt;
+      &lt;class name=&quot;com.salesoptimize.testcases.TestCase_18&quot;/&gt;
+      &lt;class name=&quot;com.salesoptimize.testcases.TestCase_19&quot;/&gt;
+      &lt;class name=&quot;com.salesoptimize.testcases.TestCase_20&quot;/&gt;
+      &lt;class name=&quot;com.salesoptimize.testcases.TestCase_21&quot;/&gt;
+      &lt;class name=&quot;com.salesoptimize.testcases.TestCase_22&quot;/&gt;
+      &lt;class name=&quot;com.salesoptimize.testcases.TestCase_23&quot;/&gt;
+      &lt;class name=&quot;com.salesoptimize.testcases.TestCase_24&quot;/&gt;
+      &lt;class name=&quot;com.salesoptimize.testcases.TestCase_25&quot;/&gt;
+      &lt;class name=&quot;com.salesoptimize.testcases.TestCase_26&quot;/&gt;
+      &lt;class name=&quot;com.salesoptimize.testcases.TestCase_27&quot;/&gt;
+      &lt;class name=&quot;com.salesoptimize.testcases.TestCase_28&quot;/&gt;
+      &lt;class name=&quot;com.salesoptimize.testcases.TestCase_29&quot;/&gt;
+      &lt;class name=&quot;com.salesoptimize.testcases.TestCase_30&quot;/&gt;
+      &lt;class name=&quot;com.salesoptimize.testcases.TestCase_31&quot;/&gt;
+      &lt;class name=&quot;com.salesoptimize.testcases.TestCase_32&quot;/&gt;
+      &lt;class name=&quot;com.salesoptimize.testcases.TestCase_33&quot;/&gt;
+      &lt;class name=&quot;com.salesoptimize.testcases.TestCase_34&quot;/&gt;
+      &lt;class name=&quot;com.salesoptimize.testcases.TestCase_35&quot;/&gt;
+      &lt;class name=&quot;com.salesoptimize.testcases.TestCase_36&quot;/&gt;
+      &lt;class name=&quot;com.salesoptimize.testcases.TestCase_37&quot;/&gt;
+      &lt;class name=&quot;com.salesoptimize.testcases.TestCase_38&quot;/&gt;
+      &lt;class name=&quot;com.salesoptimize.testcases.TestCase_39&quot;/&gt;
+      &lt;class name=&quot;com.salesoptimize.testcases.TestCase_40&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- SalesOptimizeSuite --&gt;
+&lt;/suite&gt; &lt;!-- Reports --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-MasterTestNg" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\SalesOptimizeTest\TestNGSuite\MasterTestNG.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;MasterTestNg&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.salesoptimize.utility.ExtentListeners&quot;/&gt;
+    &lt;listener class-name=&quot;com.salesoptimize.utility.CustomTestNGReporter&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;suite-files&gt;
+    &lt;suite-file path=&quot;SalesOptimizeTestSuite.xml&quot;/&gt;
+  &lt;/suite-files&gt;
+&lt;/suite&gt; &lt;!-- MasterTestNg --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Reports" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Reports</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">SalesOptimizeSuite (41 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-MasterTestNg" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for MasterTestNg</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Reports" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Reports</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Alexa</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">VisitorTrafficRegionCountry</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">ContactDepartment</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">ContactDepartment</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Domains</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">EvidenceofInternationalPresence</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Evidence</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">EvidenceOfMultipleCurrencies</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">EvidenceOfOnlinePayments</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">EvidenceofMobileSite</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">ExportData</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">ExportAList</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">ExportMustHaveEmailAddressPhoneNumber</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">ExportPurchasedLeadToSalesforce</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">GlobalRegion</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">SelectGlobalRegion</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Location</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">HasPhysicalLocation</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Login</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">LoginSalesOptimize</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">PaymentMethod</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">ExcludePaymentMethod</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">IncludePaymentMethod</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">PaymentProvider</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">ExcludeFinanceProvider</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">ExcludePaymentProvider</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">IncludeFinanceProvider</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">IncludePaymentProvider</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Multiurllookup</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Retail</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">SelectIndustryAndSubIndustry</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">SalesforceCRMExport</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">AddSalesforceCRMExport</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">ShippingCompanies</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">AllSitesShipping</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">EvidenceOfInternationalShipping</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">EvidenceofFreeShipping</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">ExcludeShippingCompanies</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">IncludeShippingCompanies</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">SocialMedia</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">ExcludeWebsiteTechnology</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">IncludeMarketingAnalytics</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">InstagramFollowers</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">PresencOfInstagram</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">PresenceOfFacebook</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">PresenceOfTwitter</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">PresenceofYoutube</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TwitterFollowers</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">YouTubeSubscribers</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">YouTubeViews</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Technology</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">ExcludeWebsiteTechnology</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">IncludeWebsiteTechnology</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">TopLevelDomain</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">TopLevelDomain</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">TurnOver</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">selectEstimatedOnlineSales</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-MasterTestNg" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for MasterTestNg</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Reports" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Reports</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Reports');
+function tableData_Reports() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(41);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'TopLevelDomain')
+data.setCell(0, 2, 'com.salesoptimize.testcases.TestCase_40')
+data.setCell(0, 3, 97763);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'ExportAList')
+data.setCell(1, 2, 'com.salesoptimize.testcases.TestCase_1')
+data.setCell(1, 3, 56931);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'ExportMustHaveEmailAddressPhoneNumber')
+data.setCell(2, 2, 'com.salesoptimize.testcases.TestCase_11')
+data.setCell(2, 3, 47167);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'SelectGlobalRegion')
+data.setCell(3, 2, 'com.salesoptimize.testcases.TestCase_3')
+data.setCell(3, 3, 43973);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'ExcludePaymentMethod')
+data.setCell(4, 2, 'com.salesoptimize.testcases.TestCase_14')
+data.setCell(4, 3, 43565);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'ContactDepartment')
+data.setCell(5, 2, 'com.salesoptimize.testcases.TestCase_10')
+data.setCell(5, 3, 43229);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'IncludeMarketingAnalytics')
+data.setCell(6, 2, 'com.salesoptimize.testcases.TestCase_38')
+data.setCell(6, 3, 32574);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'YouTubeSubscribers')
+data.setCell(7, 2, 'com.salesoptimize.testcases.TestCase_33')
+data.setCell(7, 3, 31618);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'TwitterFollowers')
+data.setCell(8, 2, 'com.salesoptimize.testcases.TestCase_30')
+data.setCell(8, 3, 27513);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'YouTubeViews')
+data.setCell(9, 2, 'com.salesoptimize.testcases.TestCase_32')
+data.setCell(9, 3, 27365);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'InstagramFollowers')
+data.setCell(10, 2, 'com.salesoptimize.testcases.TestCase_31')
+data.setCell(10, 3, 27292);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'ExcludeWebsiteTechnology')
+data.setCell(11, 2, 'com.salesoptimize.testcases.TestCase_29')
+data.setCell(11, 3, 26389);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'PresenceOfFacebook')
+data.setCell(12, 2, 'com.salesoptimize.testcases.TestCase_34')
+data.setCell(12, 3, 26078);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'PresenceOfTwitter')
+data.setCell(13, 2, 'com.salesoptimize.testcases.TestCase_35')
+data.setCell(13, 3, 24168);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'PresencOfInstagram')
+data.setCell(14, 2, 'com.salesoptimize.testcases.TestCase_36')
+data.setCell(14, 3, 23972);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'TwitterFollowers')
+data.setCell(15, 2, 'com.salesoptimize.testcases.TestCase_39')
+data.setCell(15, 3, 23660);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'PresenceofYoutube')
+data.setCell(16, 2, 'com.salesoptimize.testcases.TestCase_37')
+data.setCell(16, 3, 23657);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'SelectIndustryAndSubIndustry')
+data.setCell(17, 2, 'com.salesoptimize.testcases.TestCase_8')
+data.setCell(17, 3, 23056);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'IncludeWebsiteTechnology')
+data.setCell(18, 2, 'com.salesoptimize.testcases.TestCase_27')
+data.setCell(18, 3, 23026);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'VisitorTrafficRegionCountry')
+data.setCell(19, 2, 'com.salesoptimize.testcases.TestCase_24')
+data.setCell(19, 3, 22885);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'ExcludeWebsiteTechnology')
+data.setCell(20, 2, 'com.salesoptimize.testcases.TestCase_28')
+data.setCell(20, 3, 22722);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'ExportPurchasedLeadToSalesforce')
+data.setCell(21, 2, 'com.salesoptimize.testcases.TestCase_2')
+data.setCell(21, 3, 21501);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'EvidenceofFreeShipping')
+data.setCell(22, 2, 'com.salesoptimize.testcases.TestCase_23')
+data.setCell(22, 3, 20402);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'ExcludeShippingCompanies')
+data.setCell(23, 2, 'com.salesoptimize.testcases.TestCase_22')
+data.setCell(23, 3, 20321);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'ExcludeFinanceProvider')
+data.setCell(24, 2, 'com.salesoptimize.testcases.TestCase_16')
+data.setCell(24, 3, 20195);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'EvidenceofInternationalPresence')
+data.setCell(25, 2, 'com.salesoptimize.testcases.TestCase_25')
+data.setCell(25, 3, 18971);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'EvidenceOfInternationalShipping')
+data.setCell(26, 2, 'com.salesoptimize.testcases.TestCase_26')
+data.setCell(26, 3, 18842);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'IncludeFinanceProvider')
+data.setCell(27, 2, 'com.salesoptimize.testcases.TestCase_15')
+data.setCell(27, 3, 18491);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'AllSitesShipping')
+data.setCell(28, 2, 'com.salesoptimize.testcases.TestCase_20')
+data.setCell(28, 3, 17407);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'IncludeShippingCompanies')
+data.setCell(29, 2, 'com.salesoptimize.testcases.TestCase_21')
+data.setCell(29, 3, 17315);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'EvidenceOfMultipleCurrencies')
+data.setCell(30, 2, 'com.salesoptimize.testcases.TestCase_19')
+data.setCell(30, 3, 17260);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'EvidenceofMobileSite')
+data.setCell(31, 2, 'com.salesoptimize.testcases.TestCase_18')
+data.setCell(31, 3, 17144);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'EvidenceOfOnlinePayments')
+data.setCell(32, 2, 'com.salesoptimize.testcases.TestCase_17')
+data.setCell(32, 3, 17099);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'selectEstimatedOnlineSales')
+data.setCell(33, 2, 'com.salesoptimize.testcases.TestCase_4')
+data.setCell(33, 3, 16472);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'ExcludePaymentProvider')
+data.setCell(34, 2, 'com.salesoptimize.testcases.TestCase_12')
+data.setCell(34, 3, 15213);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'IncludePaymentProvider')
+data.setCell(35, 2, 'com.salesoptimize.testcases.TestCase_5')
+data.setCell(35, 3, 15166);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'HasPhysicalLocation')
+data.setCell(36, 2, 'com.salesoptimize.testcases.TestCase_9')
+data.setCell(36, 3, 14942);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'Multiurllookup')
+data.setCell(37, 2, 'com.salesoptimize.testcases.TestCase_7')
+data.setCell(37, 3, 14586);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'IncludePaymentMethod')
+data.setCell(38, 2, 'com.salesoptimize.testcases.TestCase_13')
+data.setCell(38, 3, 11933);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'LoginSalesOptimize')
+data.setCell(39, 2, 'com.salesoptimize.landingpage.LoginSalesOptimizeTest')
+data.setCell(39, 3, 3565);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'AddSalesforceCRMExport')
+data.setCell(40, 2, 'com.salesoptimize.testcases.TestCase_6')
+data.setCell(40, 3, 2847);
+window.suiteTableData['Reports']= { tableData: data, tableDiv: 'times-div-Reports'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 17 minutes</span>
+              <div id="times-div-Reports">
+              </div> <!-- times-div-Reports -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-MasterTestNg" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for MasterTestNg</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_MasterTestNg');
+function tableData_MasterTestNg() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(0);
+window.suiteTableData['MasterTestNg']= { tableData: data, tableDiv: 'times-div-MasterTestNg'}
+return data;
+}
+              </script>
+              <div id="times-div-MasterTestNg">
+              </div> <!-- times-div-MasterTestNg -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Reports" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Reports</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-MasterTestNg" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for MasterTestNg</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Reports" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">120 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.salesoptimize.testcases.TestCase_4</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+                <span class="ignored-method-name">end</span>
+                <br/>
+                <span class="ignored-method-name">login</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.salesoptimize.testcases.TestCase_23</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+                <span class="ignored-method-name">end</span>
+                <br/>
+                <span class="ignored-method-name">login</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.salesoptimize.testcases.TestCase_32</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+                <span class="ignored-method-name">end</span>
+                <br/>
+                <span class="ignored-method-name">login</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.salesoptimize.testcases.TestCase_34</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+                <span class="ignored-method-name">end</span>
+                <br/>
+                <span class="ignored-method-name">login</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.salesoptimize.testcases.TestCase_11</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+                <span class="ignored-method-name">end</span>
+                <br/>
+                <span class="ignored-method-name">login</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.salesoptimize.testcases.TestCase_15</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+                <span class="ignored-method-name">end</span>
+                <br/>
+                <span class="ignored-method-name">login</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.salesoptimize.testcases.TestCase_6</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+                <span class="ignored-method-name">end</span>
+                <br/>
+                <span class="ignored-method-name">login</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.salesoptimize.testcases.TestCase_20</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+                <span class="ignored-method-name">end</span>
+                <br/>
+                <span class="ignored-method-name">login</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.salesoptimize.testcases.TestCase_29</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+                <span class="ignored-method-name">end</span>
+                <br/>
+                <span class="ignored-method-name">login</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.salesoptimize.testcases.TestCase_17</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+                <span class="ignored-method-name">end</span>
+                <br/>
+                <span class="ignored-method-name">login</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.salesoptimize.testcases.TestCase_3</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+                <span class="ignored-method-name">end</span>
+                <br/>
+                <span class="ignored-method-name">login</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.salesoptimize.testcases.TestCase_5</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+                <span class="ignored-method-name">end</span>
+                <br/>
+                <span class="ignored-method-name">login</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.salesoptimize.testcases.TestCase_38</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+                <span class="ignored-method-name">end</span>
+                <br/>
+                <span class="ignored-method-name">login</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.salesoptimize.testcases.TestCase_31</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+                <span class="ignored-method-name">end</span>
+                <br/>
+                <span class="ignored-method-name">login</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.salesoptimize.testcases.TestCase_7</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+                <span class="ignored-method-name">end</span>
+                <br/>
+                <span class="ignored-method-name">login</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.salesoptimize.testcases.TestCase_19</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+                <span class="ignored-method-name">end</span>
+                <br/>
+                <span class="ignored-method-name">login</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.salesoptimize.testcases.TestCase_18</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+                <span class="ignored-method-name">end</span>
+                <br/>
+                <span class="ignored-method-name">login</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.salesoptimize.testcases.TestCase_22</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+                <span class="ignored-method-name">end</span>
+                <br/>
+                <span class="ignored-method-name">login</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.salesoptimize.testcases.TestCase_12</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+                <span class="ignored-method-name">end</span>
+                <br/>
+                <span class="ignored-method-name">login</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.salesoptimize.testcases.TestCase_8</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+                <span class="ignored-method-name">end</span>
+                <br/>
+                <span class="ignored-method-name">login</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.salesoptimize.testcases.TestCase_25</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+                <span class="ignored-method-name">end</span>
+                <br/>
+                <span class="ignored-method-name">login</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.salesoptimize.testcases.TestCase_30</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+                <span class="ignored-method-name">end</span>
+                <br/>
+                <span class="ignored-method-name">login</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.salesoptimize.testcases.TestCase_26</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+                <span class="ignored-method-name">end</span>
+                <br/>
+                <span class="ignored-method-name">login</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.salesoptimize.testcases.TestCase_28</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+                <span class="ignored-method-name">end</span>
+                <br/>
+                <span class="ignored-method-name">login</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.salesoptimize.testcases.TestCase_14</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+                <span class="ignored-method-name">end</span>
+                <br/>
+                <span class="ignored-method-name">login</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.salesoptimize.testcases.TestCase_35</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+                <span class="ignored-method-name">end</span>
+                <br/>
+                <span class="ignored-method-name">login</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.salesoptimize.testcases.TestCase_16</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+                <span class="ignored-method-name">end</span>
+                <br/>
+                <span class="ignored-method-name">login</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.salesoptimize.testcases.TestCase_9</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+                <span class="ignored-method-name">end</span>
+                <br/>
+                <span class="ignored-method-name">login</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.salesoptimize.testcases.TestCase_24</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+                <span class="ignored-method-name">end</span>
+                <br/>
+                <span class="ignored-method-name">login</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.salesoptimize.testcases.TestCase_37</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+                <span class="ignored-method-name">end</span>
+                <br/>
+                <span class="ignored-method-name">login</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.salesoptimize.testcases.TestCase_13</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+                <span class="ignored-method-name">end</span>
+                <br/>
+                <span class="ignored-method-name">login</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.salesoptimize.testcases.TestCase_27</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+                <span class="ignored-method-name">end</span>
+                <br/>
+                <span class="ignored-method-name">login</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.salesoptimize.testcases.TestCase_10</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+                <span class="ignored-method-name">end</span>
+                <br/>
+                <span class="ignored-method-name">login</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.salesoptimize.testcases.TestCase_21</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+                <span class="ignored-method-name">end</span>
+                <br/>
+                <span class="ignored-method-name">login</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.salesoptimize.testcases.TestCase_36</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+                <span class="ignored-method-name">end</span>
+                <br/>
+                <span class="ignored-method-name">login</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.salesoptimize.testcases.TestCase_40</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+                <span class="ignored-method-name">end</span>
+                <br/>
+                <span class="ignored-method-name">login</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.salesoptimize.testcases.TestCase_1</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+                <span class="ignored-method-name">end</span>
+                <br/>
+                <span class="ignored-method-name">login</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.salesoptimize.testcases.TestCase_39</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+                <span class="ignored-method-name">end</span>
+                <br/>
+                <span class="ignored-method-name">login</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.salesoptimize.testcases.TestCase_2</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+                <span class="ignored-method-name">end</span>
+                <br/>
+                <span class="ignored-method-name">login</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.salesoptimize.testcases.TestCase_33</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+                <span class="ignored-method-name">end</span>
+                <br/>
+                <span class="ignored-method-name">login</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-MasterTestNg" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Reports" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.salesoptimize.landingpage.LoginSalesOptimizeTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">login</span>
+                <span class="method-start">8855 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">ExtentReportConfig(org.testng.TestRunner@799c87)</span>
+                <span class="method-start">8874 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LoginSalesOptimize</span>
+                <span class="method-start">8977 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">reset</span>
+                <span class="method-start">12546 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.salesoptimize.testcases.TestCase_1</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">ExtentReportConfig(org.testng.TestRunner@799c87)</span>
+                <span class="method-start">18377 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ExportAList(2, Dashboard)</span>
+                <span class="method-start">18377 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">reset</span>
+                <span class="method-start">75309 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.salesoptimize.testcases.TestCase_2</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">ExtentReportConfig(org.testng.TestRunner@799c87)</span>
+                <span class="method-start">80660 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExportPurchasedLeadToSalesforce(2, Dashboard)</span>
+                <span class="method-start">80660 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">reset</span>
+                <span class="method-start">104379 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.salesoptimize.testcases.TestCase_3</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">ExtentReportConfig(org.testng.TestRunner@799c87)</span>
+                <span class="method-start">111144 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">SelectGlobalRegion(2, Dashboard)</span>
+                <span class="method-start">111145 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">reset</span>
+                <span class="method-start">155121 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.salesoptimize.testcases.TestCase_4</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">ExtentReportConfig(org.testng.TestRunner@799c87)</span>
+                <span class="method-start">162002 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">selectEstimatedOnlineSales(2, Dashboard)</span>
+                <span class="method-start">162002 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">reset</span>
+                <span class="method-start">178475 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.salesoptimize.testcases.TestCase_5</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">ExtentReportConfig(org.testng.TestRunner@799c87)</span>
+                <span class="method-start">184861 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">IncludePaymentProvider(2, Dashboard)</span>
+                <span class="method-start">184861 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">reset</span>
+                <span class="method-start">200028 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.salesoptimize.testcases.TestCase_6</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">ExtentReportConfig(org.testng.TestRunner@799c87)</span>
+                <span class="method-start">206402 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">AddSalesforceCRMExport(2, Dashboard)</span>
+                <span class="method-start">206402 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">reset</span>
+                <span class="method-start">209250 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.salesoptimize.testcases.TestCase_7</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">ExtentReportConfig(org.testng.TestRunner@799c87)</span>
+                <span class="method-start">214580 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Multiurllookup(2, Dashboard)</span>
+                <span class="method-start">214581 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">reset</span>
+                <span class="method-start">229169 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.salesoptimize.testcases.TestCase_8</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">ExtentReportConfig(org.testng.TestRunner@799c87)</span>
+                <span class="method-start">234898 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">SelectIndustryAndSubIndustry(2, Dashboard)</span>
+                <span class="method-start">234898 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">reset</span>
+                <span class="method-start">257955 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.salesoptimize.testcases.TestCase_9</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">ExtentReportConfig(org.testng.TestRunner@799c87)</span>
+                <span class="method-start">265335 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">HasPhysicalLocation(2, Dashboard)</span>
+                <span class="method-start">265335 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">reset</span>
+                <span class="method-start">280278 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.salesoptimize.testcases.TestCase_10</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">ExtentReportConfig(org.testng.TestRunner@799c87)</span>
+                <span class="method-start">286754 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ContactDepartment(2, Dashboard)</span>
+                <span class="method-start">286754 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">reset</span>
+                <span class="method-start">329989 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.salesoptimize.testcases.TestCase_11</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">ExtentReportConfig(org.testng.TestRunner@799c87)</span>
+                <span class="method-start">335634 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ExportMustHaveEmailAddressPhoneNumber(2, Dashboard)</span>
+                <span class="method-start">335634 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">reset</span>
+                <span class="method-start">382802 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.salesoptimize.testcases.TestCase_12</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">ExtentReportConfig(org.testng.TestRunner@799c87)</span>
+                <span class="method-start">388369 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ExcludePaymentProvider(2, Dashboard)</span>
+                <span class="method-start">388369 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">reset</span>
+                <span class="method-start">403583 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.salesoptimize.testcases.TestCase_13</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">ExtentReportConfig(org.testng.TestRunner@799c87)</span>
+                <span class="method-start">409995 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">IncludePaymentMethod(2, Dashboard)</span>
+                <span class="method-start">409995 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">reset</span>
+                <span class="method-start">421930 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.salesoptimize.testcases.TestCase_14</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">ExtentReportConfig(org.testng.TestRunner@799c87)</span>
+                <span class="method-start">428459 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ExcludePaymentMethod(2, Dashboard)</span>
+                <span class="method-start">428460 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">reset</span>
+                <span class="method-start">472027 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.salesoptimize.testcases.TestCase_15</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">ExtentReportConfig(org.testng.TestRunner@799c87)</span>
+                <span class="method-start">478748 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">IncludeFinanceProvider(2, Dashboard)</span>
+                <span class="method-start">478749 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">reset</span>
+                <span class="method-start">497243 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.salesoptimize.testcases.TestCase_16</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">ExtentReportConfig(org.testng.TestRunner@799c87)</span>
+                <span class="method-start">503631 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ExcludeFinanceProvider(2, Dashboard)</span>
+                <span class="method-start">503631 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">reset</span>
+                <span class="method-start">523829 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.salesoptimize.testcases.TestCase_17</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">ExtentReportConfig(org.testng.TestRunner@799c87)</span>
+                <span class="method-start">530749 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">EvidenceOfOnlinePayments(2, Dashboard)</span>
+                <span class="method-start">530749 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">reset</span>
+                <span class="method-start">547850 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.salesoptimize.testcases.TestCase_18</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">ExtentReportConfig(org.testng.TestRunner@799c87)</span>
+                <span class="method-start">554289 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">EvidenceofMobileSite(2, Dashboard)</span>
+                <span class="method-start">554289 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">reset</span>
+                <span class="method-start">571435 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.salesoptimize.testcases.TestCase_19</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">ExtentReportConfig(org.testng.TestRunner@799c87)</span>
+                <span class="method-start">577865 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">EvidenceOfMultipleCurrencies(2, Dashboard)</span>
+                <span class="method-start">577865 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">reset</span>
+                <span class="method-start">595127 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.salesoptimize.testcases.TestCase_20</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">ExtentReportConfig(org.testng.TestRunner@799c87)</span>
+                <span class="method-start">601542 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">AllSitesShipping(2, Dashboard)</span>
+                <span class="method-start">601543 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">reset</span>
+                <span class="method-start">618951 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.salesoptimize.testcases.TestCase_21</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">ExtentReportConfig(org.testng.TestRunner@799c87)</span>
+                <span class="method-start">625389 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">IncludeShippingCompanies(2, Dashboard)</span>
+                <span class="method-start">625389 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">reset</span>
+                <span class="method-start">642705 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.salesoptimize.testcases.TestCase_22</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">ExtentReportConfig(org.testng.TestRunner@799c87)</span>
+                <span class="method-start">649122 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ExcludeShippingCompanies(2, Dashboard)</span>
+                <span class="method-start">649122 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">reset</span>
+                <span class="method-start">669445 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.salesoptimize.testcases.TestCase_23</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">ExtentReportConfig(org.testng.TestRunner@799c87)</span>
+                <span class="method-start">675879 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">EvidenceofFreeShipping(2, Dashboard)</span>
+                <span class="method-start">675879 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">reset</span>
+                <span class="method-start">696282 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.salesoptimize.testcases.TestCase_24</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">ExtentReportConfig(org.testng.TestRunner@799c87)</span>
+                <span class="method-start">702724 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VisitorTrafficRegionCountry(2, Dashboard)</span>
+                <span class="method-start">702724 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">reset</span>
+                <span class="method-start">725611 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.salesoptimize.testcases.TestCase_25</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">ExtentReportConfig(org.testng.TestRunner@799c87)</span>
+                <span class="method-start">732036 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">EvidenceofInternationalPresence(2, Dashboard)</span>
+                <span class="method-start">732036 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">reset</span>
+                <span class="method-start">751008 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.salesoptimize.testcases.TestCase_26</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">ExtentReportConfig(org.testng.TestRunner@799c87)</span>
+                <span class="method-start">757414 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">EvidenceOfInternationalShipping(2, Dashboard)</span>
+                <span class="method-start">757414 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">reset</span>
+                <span class="method-start">776257 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.salesoptimize.testcases.TestCase_27</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">ExtentReportConfig(org.testng.TestRunner@799c87)</span>
+                <span class="method-start">782668 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">IncludeWebsiteTechnology(2, Dashboard)</span>
+                <span class="method-start">782669 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">reset</span>
+                <span class="method-start">805697 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.salesoptimize.testcases.TestCase_28</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">ExtentReportConfig(org.testng.TestRunner@799c87)</span>
+                <span class="method-start">812156 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ExcludeWebsiteTechnology(2, Dashboard)</span>
+                <span class="method-start">812156 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">reset</span>
+                <span class="method-start">834879 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.salesoptimize.testcases.TestCase_29</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">ExtentReportConfig(org.testng.TestRunner@799c87)</span>
+                <span class="method-start">841437 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ExcludeWebsiteTechnology(2, Dashboard)</span>
+                <span class="method-start">841437 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">reset</span>
+                <span class="method-start">867828 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.salesoptimize.testcases.TestCase_30</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">ExtentReportConfig(org.testng.TestRunner@799c87)</span>
+                <span class="method-start">874277 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TwitterFollowers(2, Dashboard)</span>
+                <span class="method-start">874277 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">reset</span>
+                <span class="method-start">901797 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.salesoptimize.testcases.TestCase_31</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">ExtentReportConfig(org.testng.TestRunner@799c87)</span>
+                <span class="method-start">908206 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">InstagramFollowers(2, Dashboard)</span>
+                <span class="method-start">908206 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">reset</span>
+                <span class="method-start">935501 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.salesoptimize.testcases.TestCase_32</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">ExtentReportConfig(org.testng.TestRunner@799c87)</span>
+                <span class="method-start">941950 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">YouTubeViews(2, Dashboard)</span>
+                <span class="method-start">941950 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">reset</span>
+                <span class="method-start">969317 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.salesoptimize.testcases.TestCase_33</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">ExtentReportConfig(org.testng.TestRunner@799c87)</span>
+                <span class="method-start">975804 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">YouTubeSubscribers(2, Dashboard)</span>
+                <span class="method-start">975804 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">reset</span>
+                <span class="method-start">1007424 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.salesoptimize.testcases.TestCase_34</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">ExtentReportConfig(org.testng.TestRunner@799c87)</span>
+                <span class="method-start">1012707 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">PresenceOfFacebook(2, Dashboard)</span>
+                <span class="method-start">1012707 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">reset</span>
+                <span class="method-start">1038787 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.salesoptimize.testcases.TestCase_35</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">ExtentReportConfig(org.testng.TestRunner@799c87)</span>
+                <span class="method-start">1045249 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">PresenceOfTwitter(2, Dashboard)</span>
+                <span class="method-start">1045249 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">reset</span>
+                <span class="method-start">1069419 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.salesoptimize.testcases.TestCase_36</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">ExtentReportConfig(org.testng.TestRunner@799c87)</span>
+                <span class="method-start">1076072 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">PresencOfInstagram(2, Dashboard)</span>
+                <span class="method-start">1076072 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">reset</span>
+                <span class="method-start">1100046 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.salesoptimize.testcases.TestCase_37</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">ExtentReportConfig(org.testng.TestRunner@799c87)</span>
+                <span class="method-start">1106574 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">PresenceofYoutube(2, Dashboard)</span>
+                <span class="method-start">1106574 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">reset</span>
+                <span class="method-start">1130233 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.salesoptimize.testcases.TestCase_38</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">ExtentReportConfig(org.testng.TestRunner@799c87)</span>
+                <span class="method-start">1136731 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">IncludeMarketingAnalytics(2, Dashboard)</span>
+                <span class="method-start">1136731 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">reset</span>
+                <span class="method-start">1169311 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.salesoptimize.testcases.TestCase_39</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">ExtentReportConfig(org.testng.TestRunner@799c87)</span>
+                <span class="method-start">1175804 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TwitterFollowers(2, Dashboard)</span>
+                <span class="method-start">1175804 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">reset</span>
+                <span class="method-start">1199466 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.salesoptimize.testcases.TestCase_40</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">ExtentReportConfig(org.testng.TestRunner@799c87)</span>
+                <span class="method-start">1205902 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TopLevelDomain(2, Dashboard)</span>
+                <span class="method-start">1205903 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">reset</span>
+                <span class="method-start">1303667 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.salesoptimize.landingpage.LoginSalesOptimizeTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">end</span>
+                <span class="method-start">1309983 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-MasterTestNg" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [LandingPage]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.salesoptimize.utility.ExtentListeners"/>
+    <listener class-name="com.salesoptimize.utility.CustomTestNGReporter"/>
+  </listeners>
+  <test name="LandingPage(failed)">
+    <parameter name="rowNum" value="2"/>
+    <parameter name="dashboardSheet" value="Dashboard"/>
+    <classes>
+      <class name="com.salesoptimize.testcases.TestCase_17">
+        <methods>
+          <include name="setup"/>
+          <include name="reset"/>
+          <include name="end"/>
+          <include name="login"/>
+          <include name="EvidenceOfOnlinePayments" invocation-numbers="0"/>
+          <include name="ExtentReportConfig"/>
+        </methods>
+      </class> <!-- com.salesoptimize.testcases.TestCase_17 -->
+      <class name="com.salesoptimize.testcases.TestCase_23">
+        <methods>
+          <include name="setup"/>
+          <include name="reset"/>
+          <include name="EvidenceofFreeShipping" invocation-numbers="0"/>
+          <include name="end"/>
+          <include name="login"/>
+          <include name="ExtentReportConfig"/>
+        </methods>
+      </class> <!-- com.salesoptimize.testcases.TestCase_23 -->
+      <class name="com.salesoptimize.testcases.TestCase_12">
+        <methods>
+          <include name="setup"/>
+          <include name="reset"/>
+          <include name="end"/>
+          <include name="login"/>
+          <include name="ExtentReportConfig"/>
+          <include name="ExcludePaymentProvider" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.salesoptimize.testcases.TestCase_12 -->
+      <class name="com.salesoptimize.testcases.TestCase_8">
+        <methods>
+          <include name="setup"/>
+          <include name="reset"/>
+          <include name="end"/>
+          <include name="login"/>
+          <include name="SelectIndustryAndSubIndustry" invocation-numbers="0"/>
+          <include name="ExtentReportConfig"/>
+        </methods>
+      </class> <!-- com.salesoptimize.testcases.TestCase_8 -->
+      <class name="com.salesoptimize.testcases.TestCase_14">
+        <methods>
+          <include name="setup"/>
+          <include name="reset"/>
+          <include name="end"/>
+          <include name="login"/>
+          <include name="EncludePaymentMethod" invocation-numbers="0"/>
+          <include name="ExtentReportConfig"/>
+        </methods>
+      </class> <!-- com.salesoptimize.testcases.TestCase_14 -->
+      <class name="com.salesoptimize.testcases.TestCase_22">
+        <methods>
+          <include name="reset"/>
+          <include name="setup"/>
+          <include name="end"/>
+          <include name="login"/>
+          <include name="ExcludeShippingCompanies" invocation-numbers="0"/>
+          <include name="ExtentReportConfig"/>
+        </methods>
+      </class> <!-- com.salesoptimize.testcases.TestCase_22 -->
+      <class name="com.salesoptimize.testcases.TestCase_9">
+        <methods>
+          <include name="setup"/>
+          <include name="reset"/>
+          <include name="end"/>
+          <include name="HasPhysicalLocation" invocation-numbers="0"/>
+          <include name="login"/>
+          <include name="ExtentReportConfig"/>
+        </methods>
+      </class> <!-- com.salesoptimize.testcases.TestCase_9 -->
+      <class name="com.salesoptimize.testcases.TestCase_13">
+        <methods>
+          <include name="setup"/>
+          <include name="reset"/>
+          <include name="end"/>
+          <include name="login"/>
+          <include name="ExtentReportConfig"/>
+          <include name="IncludePaymentMethod" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.salesoptimize.testcases.TestCase_13 -->
+      <class name="com.salesoptimize.testcases.TestCase_21">
+        <methods>
+          <include name="setup"/>
+          <include name="reset"/>
+          <include name="end"/>
+          <include name="login"/>
+          <include name="IncludeShippingCompanies" invocation-numbers="0"/>
+          <include name="ExtentReportConfig"/>
+        </methods>
+      </class> <!-- com.salesoptimize.testcases.TestCase_21 -->
+    </classes>
+  </test> <!-- LandingPage(failed) -->
+</suite> <!-- Failed suite [LandingPage] -->

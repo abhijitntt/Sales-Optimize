@@ -1,0 +1,1055 @@
+<html>
+<head>
+<title>TestNG:  LandingPage</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>LandingPage</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>31/9/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Aug 29 20:18:00 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>1216 seconds (1216551 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.salesoptimize.testcases.TestCase_14.EncludePaymentMethod()'><b>EncludePaymentMethod</b><br>Test class: com.salesoptimize.testcases.TestCase_14<br>Test method: Verify Payment Method should not contain 'Visa Debit'<br>Parameters: 2, Dashboard</td>
+<td><div><pre>java.lang.RuntimeException: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//table/tbody/tr[1]/td[2]/a&quot;}
+  (Session info: chrome=92.0.4515.159)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;TECHNEPLUS_GG&apos;, ip: &apos;192.168.1.41&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.11&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57646}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 37169cdbf247512a4114f4ef508f357f
+*** Element info: {Using=xpath, value=//table/tbody/tr[1]/td[2]/a}
+	at com.salesoptimize.testcases.TestCase_14.EncludePaymentMethod(TestCase_14.java:20)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//table/tbody/tr[1]/td[2]/a&quot;}
+  (Session info: chrome=92.0.4515.159)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;TECHNEPLUS_GG&apos;, ip: &apos;192.168.1.41&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.11&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57646}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 37169cdbf247512a4114f4ef508f357f
+*** Element info: {Using=xpath, value=//table/tbody/tr[1]/td[2]/a}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.salesoptimize.utility.CommonMethod.findElement(CommonMethod.java:77)
+	at com.salesoptimize.utility.CommonMethod.elementToBeClickable(CommonMethod.java:927)
+	at com.salesoptimize.reusablemethods.ReusableMethodsDashboard.clickFirstRecord(ReusableMethodsDashboard.java:550)
+	at com.salesoptimize.reusablemethods.ReusableMethodsDashboard.encludePaymentMethod(ReusableMethodsDashboard.java:530)
+	at com.salesoptimize.testcases.TestCase_14.EncludePaymentMethod(TestCase_14.java:16)
+	... 25 more
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1583169772", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1583169772'><pre>java.lang.RuntimeException: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//table/tbody/tr[1]/td[2]/a&quot;}
+  (Session info: chrome=92.0.4515.159)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;TECHNEPLUS_GG&apos;, ip: &apos;192.168.1.41&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.11&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57646}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 37169cdbf247512a4114f4ef508f357f
+*** Element info: {Using=xpath, value=//table/tbody/tr[1]/td[2]/a}
+	at com.salesoptimize.testcases.TestCase_14.EncludePaymentMethod(TestCase_14.java:20)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//table/tbody/tr[1]/td[2]/a&quot;}
+  (Session info: chrome=92.0.4515.159)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;TECHNEPLUS_GG&apos;, ip: &apos;192.168.1.41&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.11&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57646}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 37169cdbf247512a4114f4ef508f357f
+*** Element info: {Using=xpath, value=//table/tbody/tr[1]/td[2]/a}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.salesoptimize.utility.CommonMethod.findElement(CommonMethod.java:77)
+	at com.salesoptimize.utility.CommonMethod.elementToBeClickable(CommonMethod.java:927)
+	at com.salesoptimize.reusablemethods.ReusableMethodsDashboard.clickFirstRecord(ReusableMethodsDashboard.java:550)
+	at com.salesoptimize.reusablemethods.ReusableMethodsDashboard.encludePaymentMethod(ReusableMethodsDashboard.java:530)
+	at com.salesoptimize.testcases.TestCase_14.EncludePaymentMethod(TestCase_14.java:16)
+	... 25 more
+</pre></div></td>
+<td>32</td>
+<td>com.salesoptimize.testcases.TestCase_14@5ab9e72c</td></tr>
+<tr>
+<td title='com.salesoptimize.testcases.TestCase_17.EvidenceOfOnlinePayments()'><b>EvidenceOfOnlinePayments</b><br>Test class: com.salesoptimize.testcases.TestCase_17<br>Test method: Verify if Any of payment method or payment provider should exists<br>Parameters: 2, Dashboard</td>
+<td><div><pre>java.lang.RuntimeException: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//td[normalize-space(text())=&quot;Finance Provider&quot;]/following::td[1]	&quot;}
+  (Session info: chrome=92.0.4515.159)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;TECHNEPLUS_GG&apos;, ip: &apos;192.168.1.41&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.11&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57646}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 37169cdbf247512a4114f4ef508f357f
+*** Element info: {Using=xpath, value=//td[normalize-space(text())=&quot;Finance Provider&quot;]/following::td[1]	}
+	at com.salesoptimize.testcases.TestCase_17.EvidenceOfOnlinePayments(TestCase_17.java:20)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//td[normalize-space(text())=&quot;Finance Provider&quot;]/following::td[1]	&quot;}
+  (Session info: chrome=92.0.4515.159)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;TECHNEPLUS_GG&apos;, ip: &apos;192.168.1.41&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.11&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57646}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 37169cdbf247512a4114f4ef508f357f
+*** Element info: {Using=xpath, value=//td[normalize-space(text())=&quot;Finance Provider&quot;]/following::td[1]	}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.salesoptimize.utility.CommonMethod.findElement(CommonMethod.java:77)
+	at com.salesoptimize.utility.CommonMethod.visibilityOf(CommonMethod.java:921)
+	at com.salesoptimize.reusablemethods.ReusableMethodsEvidence.evidenceOfOnlinePayments(ReusableMethodsEvidence.java:29)
+	at com.salesoptimize.testcases.TestCase_17.EvidenceOfOnlinePayments(TestCase_17.java:16)
+	... 25 more
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace800933815", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace800933815'><pre>java.lang.RuntimeException: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//td[normalize-space(text())=&quot;Finance Provider&quot;]/following::td[1]	&quot;}
+  (Session info: chrome=92.0.4515.159)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;TECHNEPLUS_GG&apos;, ip: &apos;192.168.1.41&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.11&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57646}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 37169cdbf247512a4114f4ef508f357f
+*** Element info: {Using=xpath, value=//td[normalize-space(text())=&quot;Finance Provider&quot;]/following::td[1]	}
+	at com.salesoptimize.testcases.TestCase_17.EvidenceOfOnlinePayments(TestCase_17.java:20)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//td[normalize-space(text())=&quot;Finance Provider&quot;]/following::td[1]	&quot;}
+  (Session info: chrome=92.0.4515.159)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;TECHNEPLUS_GG&apos;, ip: &apos;192.168.1.41&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.11&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57646}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 37169cdbf247512a4114f4ef508f357f
+*** Element info: {Using=xpath, value=//td[normalize-space(text())=&quot;Finance Provider&quot;]/following::td[1]	}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.salesoptimize.utility.CommonMethod.findElement(CommonMethod.java:77)
+	at com.salesoptimize.utility.CommonMethod.visibilityOf(CommonMethod.java:921)
+	at com.salesoptimize.reusablemethods.ReusableMethodsEvidence.evidenceOfOnlinePayments(ReusableMethodsEvidence.java:29)
+	at com.salesoptimize.testcases.TestCase_17.EvidenceOfOnlinePayments(TestCase_17.java:16)
+	... 25 more
+</pre></div></td>
+<td>33</td>
+<td>com.salesoptimize.testcases.TestCase_17@45ca843</td></tr>
+<tr>
+<td title='com.salesoptimize.testcases.TestCase_23.EvidenceofFreeShipping()'><b>EvidenceofFreeShipping</b><br>Test class: com.salesoptimize.testcases.TestCase_23<br>Test method: Verify Shipping companies should contains 'Free Shipping', 'Same/Next Day Shipping', 'Returns Shipping<br>Parameters: 2, Dashboard</td>
+<td><div><pre>java.lang.AssertionError: Verified the shipping companies does not contains &apos;Free Shipping&apos;, &apos;Same/Next Day Shipping&apos;, &apos;Returns Shipping
+	at com.salesoptimize.utility.CommonMethod.assertFalse(CommonMethod.java:463)
+	at com.salesoptimize.reusablemethods.ReusableMethodsEvidence.evidenceofFreeShipping(ReusableMethodsEvidence.java:205)
+	at com.salesoptimize.testcases.TestCase_23.EvidenceofFreeShipping(TestCase_23.java:16)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1869892430", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1869892430'><pre>java.lang.AssertionError: Verified the shipping companies does not contains &apos;Free Shipping&apos;, &apos;Same/Next Day Shipping&apos;, &apos;Returns Shipping
+	at org.testng.Assert.fail(Assert.java:93)
+	at com.salesoptimize.utility.CommonMethod.assertFalse(CommonMethod.java:463)
+	at com.salesoptimize.reusablemethods.ReusableMethodsEvidence.evidenceofFreeShipping(ReusableMethodsEvidence.java:205)
+	at com.salesoptimize.testcases.TestCase_23.EvidenceofFreeShipping(TestCase_23.java:16)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>19</td>
+<td>com.salesoptimize.testcases.TestCase_23@28975c28</td></tr>
+<tr>
+<td title='com.salesoptimize.testcases.TestCase_12.ExcludePaymentProvider()'><b>ExcludePaymentProvider</b><br>Test class: com.salesoptimize.testcases.TestCase_12<br>Test method: Verify Payment Provider should not contain ' Adyen'<br>Parameters: 2, Dashboard</td>
+<td><div><pre>java.lang.RuntimeException: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//table/tbody/tr[1]/td[2]/a&quot;}
+  (Session info: chrome=92.0.4515.159)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;TECHNEPLUS_GG&apos;, ip: &apos;192.168.1.41&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.11&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57646}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 37169cdbf247512a4114f4ef508f357f
+*** Element info: {Using=xpath, value=//table/tbody/tr[1]/td[2]/a}
+	at com.salesoptimize.testcases.TestCase_12.ExcludePaymentProvider(TestCase_12.java:20)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//table/tbody/tr[1]/td[2]/a&quot;}
+  (Session info: chrome=92.0.4515.159)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;TECHNEPLUS_GG&apos;, ip: &apos;192.168.1.41&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.11&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57646}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 37169cdbf247512a4114f4ef508f357f
+*** Element info: {Using=xpath, value=//table/tbody/tr[1]/td[2]/a}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.salesoptimize.utility.CommonMethod.findElement(CommonMethod.java:77)
+	at com.salesoptimize.utility.CommonMethod.elementToBeClickable(CommonMethod.java:927)
+	at com.salesoptimize.reusablemethods.ReusableMethodsDashboard.clickFirstRecord(ReusableMethodsDashboard.java:550)
+	at com.salesoptimize.reusablemethods.ReusableMethodsDashboard.excludePaymentProvider(ReusableMethodsDashboard.java:491)
+	at com.salesoptimize.testcases.TestCase_12.ExcludePaymentProvider(TestCase_12.java:16)
+	... 25 more
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace507538622", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace507538622'><pre>java.lang.RuntimeException: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//table/tbody/tr[1]/td[2]/a&quot;}
+  (Session info: chrome=92.0.4515.159)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;TECHNEPLUS_GG&apos;, ip: &apos;192.168.1.41&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.11&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57646}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 37169cdbf247512a4114f4ef508f357f
+*** Element info: {Using=xpath, value=//table/tbody/tr[1]/td[2]/a}
+	at com.salesoptimize.testcases.TestCase_12.ExcludePaymentProvider(TestCase_12.java:20)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//table/tbody/tr[1]/td[2]/a&quot;}
+  (Session info: chrome=92.0.4515.159)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;TECHNEPLUS_GG&apos;, ip: &apos;192.168.1.41&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.11&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57646}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 37169cdbf247512a4114f4ef508f357f
+*** Element info: {Using=xpath, value=//table/tbody/tr[1]/td[2]/a}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.salesoptimize.utility.CommonMethod.findElement(CommonMethod.java:77)
+	at com.salesoptimize.utility.CommonMethod.elementToBeClickable(CommonMethod.java:927)
+	at com.salesoptimize.reusablemethods.ReusableMethodsDashboard.clickFirstRecord(ReusableMethodsDashboard.java:550)
+	at com.salesoptimize.reusablemethods.ReusableMethodsDashboard.excludePaymentProvider(ReusableMethodsDashboard.java:491)
+	at com.salesoptimize.testcases.TestCase_12.ExcludePaymentProvider(TestCase_12.java:16)
+	... 25 more
+</pre></div></td>
+<td>28</td>
+<td>com.salesoptimize.testcases.TestCase_12@50caa560</td></tr>
+<tr>
+<td title='com.salesoptimize.testcases.TestCase_22.ExcludeShippingCompanies()'><b>ExcludeShippingCompanies</b><br>Test class: com.salesoptimize.testcases.TestCase_22<br>Test method: Verify Shipping Companies not contain 'An Post'<br>Parameters: 2, Dashboard</td>
+<td><div><pre>java.lang.RuntimeException: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//table/tbody/tr[1]/td[2]/a&quot;}
+  (Session info: chrome=92.0.4515.159)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;TECHNEPLUS_GG&apos;, ip: &apos;192.168.1.41&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.11&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57646}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 37169cdbf247512a4114f4ef508f357f
+*** Element info: {Using=xpath, value=//table/tbody/tr[1]/td[2]/a}
+	at com.salesoptimize.testcases.TestCase_22.ExcludeShippingCompanies(TestCase_22.java:20)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//table/tbody/tr[1]/td[2]/a&quot;}
+  (Session info: chrome=92.0.4515.159)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;TECHNEPLUS_GG&apos;, ip: &apos;192.168.1.41&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.11&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57646}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 37169cdbf247512a4114f4ef508f357f
+*** Element info: {Using=xpath, value=//table/tbody/tr[1]/td[2]/a}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.salesoptimize.utility.CommonMethod.findElement(CommonMethod.java:77)
+	at com.salesoptimize.utility.CommonMethod.elementToBeClickable(CommonMethod.java:927)
+	at com.salesoptimize.reusablemethods.ReusableMethodsDashboard.clickFirstRecord(ReusableMethodsDashboard.java:550)
+	at com.salesoptimize.reusablemethods.ReusableMethodsDashboard.excludeShippingCompanies(ReusableMethodsDashboard.java:1090)
+	at com.salesoptimize.testcases.TestCase_22.ExcludeShippingCompanies(TestCase_22.java:16)
+	... 25 more
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace973030433", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace973030433'><pre>java.lang.RuntimeException: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//table/tbody/tr[1]/td[2]/a&quot;}
+  (Session info: chrome=92.0.4515.159)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;TECHNEPLUS_GG&apos;, ip: &apos;192.168.1.41&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.11&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57646}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 37169cdbf247512a4114f4ef508f357f
+*** Element info: {Using=xpath, value=//table/tbody/tr[1]/td[2]/a}
+	at com.salesoptimize.testcases.TestCase_22.ExcludeShippingCompanies(TestCase_22.java:20)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//table/tbody/tr[1]/td[2]/a&quot;}
+  (Session info: chrome=92.0.4515.159)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;TECHNEPLUS_GG&apos;, ip: &apos;192.168.1.41&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.11&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57646}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 37169cdbf247512a4114f4ef508f357f
+*** Element info: {Using=xpath, value=//table/tbody/tr[1]/td[2]/a}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.salesoptimize.utility.CommonMethod.findElement(CommonMethod.java:77)
+	at com.salesoptimize.utility.CommonMethod.elementToBeClickable(CommonMethod.java:927)
+	at com.salesoptimize.reusablemethods.ReusableMethodsDashboard.clickFirstRecord(ReusableMethodsDashboard.java:550)
+	at com.salesoptimize.reusablemethods.ReusableMethodsDashboard.excludeShippingCompanies(ReusableMethodsDashboard.java:1090)
+	at com.salesoptimize.testcases.TestCase_22.ExcludeShippingCompanies(TestCase_22.java:16)
+	... 25 more
+</pre></div></td>
+<td>29</td>
+<td>com.salesoptimize.testcases.TestCase_22@ba54932</td></tr>
+<tr>
+<td title='com.salesoptimize.testcases.TestCase_9.HasPhysicalLocation()'><b>HasPhysicalLocation</b><br>Test class: com.salesoptimize.testcases.TestCase_9<br>Test method: Verify physical location should exists<br>Parameters: 2, Dashboard</td>
+<td><div><pre>java.lang.RuntimeException: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//table/tbody/tr[1]/td[2]/a&quot;}
+  (Session info: chrome=92.0.4515.159)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;TECHNEPLUS_GG&apos;, ip: &apos;192.168.1.41&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.11&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57646}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 37169cdbf247512a4114f4ef508f357f
+*** Element info: {Using=xpath, value=//table/tbody/tr[1]/td[2]/a}
+	at com.salesoptimize.testcases.TestCase_9.HasPhysicalLocation(TestCase_9.java:23)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//table/tbody/tr[1]/td[2]/a&quot;}
+  (Session info: chrome=92.0.4515.159)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;TECHNEPLUS_GG&apos;, ip: &apos;192.168.1.41&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.11&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57646}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 37169cdbf247512a4114f4ef508f357f
+*** Element info: {Using=xpath, value=//table/tbody/tr[1]/td[2]/a}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.salesoptimize.utility.CommonMethod.findElement(CommonMethod.java:77)
+	at com.salesoptimize.utility.CommonMethod.elementToBeClickable(CommonMethod.java:927)
+	at com.salesoptimize.reusablemethods.ReusableMethodsDashboard.clickFirstRecord(ReusableMethodsDashboard.java:550)
+	at com.salesoptimize.reusablemethods.ReusableMethodsDashboard.hasPhysicalLoacation(ReusableMethodsDashboard.java:690)
+	at com.salesoptimize.testcases.TestCase_9.HasPhysicalLocation(TestCase_9.java:17)
+	... 25 more
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2042950203", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2042950203'><pre>java.lang.RuntimeException: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//table/tbody/tr[1]/td[2]/a&quot;}
+  (Session info: chrome=92.0.4515.159)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;TECHNEPLUS_GG&apos;, ip: &apos;192.168.1.41&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.11&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57646}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 37169cdbf247512a4114f4ef508f357f
+*** Element info: {Using=xpath, value=//table/tbody/tr[1]/td[2]/a}
+	at com.salesoptimize.testcases.TestCase_9.HasPhysicalLocation(TestCase_9.java:23)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//table/tbody/tr[1]/td[2]/a&quot;}
+  (Session info: chrome=92.0.4515.159)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;TECHNEPLUS_GG&apos;, ip: &apos;192.168.1.41&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.11&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57646}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 37169cdbf247512a4114f4ef508f357f
+*** Element info: {Using=xpath, value=//table/tbody/tr[1]/td[2]/a}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.salesoptimize.utility.CommonMethod.findElement(CommonMethod.java:77)
+	at com.salesoptimize.utility.CommonMethod.elementToBeClickable(CommonMethod.java:927)
+	at com.salesoptimize.reusablemethods.ReusableMethodsDashboard.clickFirstRecord(ReusableMethodsDashboard.java:550)
+	at com.salesoptimize.reusablemethods.ReusableMethodsDashboard.hasPhysicalLoacation(ReusableMethodsDashboard.java:690)
+	at com.salesoptimize.testcases.TestCase_9.HasPhysicalLocation(TestCase_9.java:17)
+	... 25 more
+</pre></div></td>
+<td>29</td>
+<td>com.salesoptimize.testcases.TestCase_9@65b3f4a4</td></tr>
+<tr>
+<td title='com.salesoptimize.testcases.TestCase_13.IncludePaymentMethod()'><b>IncludePaymentMethod</b><br>Test class: com.salesoptimize.testcases.TestCase_13<br>Test method: Verify Payment Method should contain 'Visa Debit'<br>Parameters: 2, Dashboard</td>
+<td><div><pre>java.lang.RuntimeException: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//table/tbody/tr[1]/td[2]/a&quot;}
+  (Session info: chrome=92.0.4515.159)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;TECHNEPLUS_GG&apos;, ip: &apos;192.168.1.41&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.11&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57646}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 37169cdbf247512a4114f4ef508f357f
+*** Element info: {Using=xpath, value=//table/tbody/tr[1]/td[2]/a}
+	at com.salesoptimize.testcases.TestCase_13.IncludePaymentMethod(TestCase_13.java:20)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//table/tbody/tr[1]/td[2]/a&quot;}
+  (Session info: chrome=92.0.4515.159)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;TECHNEPLUS_GG&apos;, ip: &apos;192.168.1.41&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.11&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57646}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 37169cdbf247512a4114f4ef508f357f
+*** Element info: {Using=xpath, value=//table/tbody/tr[1]/td[2]/a}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.salesoptimize.utility.CommonMethod.findElement(CommonMethod.java:77)
+	at com.salesoptimize.utility.CommonMethod.elementToBeClickable(CommonMethod.java:927)
+	at com.salesoptimize.reusablemethods.ReusableMethodsDashboard.clickFirstRecord(ReusableMethodsDashboard.java:550)
+	at com.salesoptimize.reusablemethods.ReusableMethodsDashboard.includePaymentMethod(ReusableMethodsDashboard.java:573)
+	at com.salesoptimize.testcases.TestCase_13.IncludePaymentMethod(TestCase_13.java:16)
+	... 25 more
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1534016779", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1534016779'><pre>java.lang.RuntimeException: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//table/tbody/tr[1]/td[2]/a&quot;}
+  (Session info: chrome=92.0.4515.159)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;TECHNEPLUS_GG&apos;, ip: &apos;192.168.1.41&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.11&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57646}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 37169cdbf247512a4114f4ef508f357f
+*** Element info: {Using=xpath, value=//table/tbody/tr[1]/td[2]/a}
+	at com.salesoptimize.testcases.TestCase_13.IncludePaymentMethod(TestCase_13.java:20)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//table/tbody/tr[1]/td[2]/a&quot;}
+  (Session info: chrome=92.0.4515.159)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;TECHNEPLUS_GG&apos;, ip: &apos;192.168.1.41&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.11&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57646}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 37169cdbf247512a4114f4ef508f357f
+*** Element info: {Using=xpath, value=//table/tbody/tr[1]/td[2]/a}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.salesoptimize.utility.CommonMethod.findElement(CommonMethod.java:77)
+	at com.salesoptimize.utility.CommonMethod.elementToBeClickable(CommonMethod.java:927)
+	at com.salesoptimize.reusablemethods.ReusableMethodsDashboard.clickFirstRecord(ReusableMethodsDashboard.java:550)
+	at com.salesoptimize.reusablemethods.ReusableMethodsDashboard.includePaymentMethod(ReusableMethodsDashboard.java:573)
+	at com.salesoptimize.testcases.TestCase_13.IncludePaymentMethod(TestCase_13.java:16)
+	... 25 more
+</pre></div></td>
+<td>29</td>
+<td>com.salesoptimize.testcases.TestCase_13@2a266d09</td></tr>
+<tr>
+<td title='com.salesoptimize.testcases.TestCase_21.IncludeShippingCompanies()'><b>IncludeShippingCompanies</b><br>Test class: com.salesoptimize.testcases.TestCase_21<br>Test method: Verify Shipping Companies should contain 'An Post'<br>Parameters: 2, Dashboard</td>
+<td><div><pre>java.lang.RuntimeException: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//table/tbody/tr[1]/td[2]/a&quot;}
+  (Session info: chrome=92.0.4515.159)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;TECHNEPLUS_GG&apos;, ip: &apos;192.168.1.41&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.11&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57646}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 37169cdbf247512a4114f4ef508f357f
+*** Element info: {Using=xpath, value=//table/tbody/tr[1]/td[2]/a}
+	at com.salesoptimize.testcases.TestCase_21.IncludeShippingCompanies(TestCase_21.java:20)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//table/tbody/tr[1]/td[2]/a&quot;}
+  (Session info: chrome=92.0.4515.159)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;TECHNEPLUS_GG&apos;, ip: &apos;192.168.1.41&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.11&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57646}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 37169cdbf247512a4114f4ef508f357f
+*** Element info: {Using=xpath, value=//table/tbody/tr[1]/td[2]/a}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.salesoptimize.utility.CommonMethod.findElement(CommonMethod.java:77)
+	at com.salesoptimize.utility.CommonMethod.elementToBeClickable(CommonMethod.java:927)
+	at com.salesoptimize.reusablemethods.ReusableMethodsDashboard.clickFirstRecord(ReusableMethodsDashboard.java:550)
+	at com.salesoptimize.reusablemethods.ReusableMethodsDashboard.includeShippingCompanies(ReusableMethodsDashboard.java:1006)
+	at com.salesoptimize.testcases.TestCase_21.IncludeShippingCompanies(TestCase_21.java:16)
+	... 25 more
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace833545945", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace833545945'><pre>java.lang.RuntimeException: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//table/tbody/tr[1]/td[2]/a&quot;}
+  (Session info: chrome=92.0.4515.159)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;TECHNEPLUS_GG&apos;, ip: &apos;192.168.1.41&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.11&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57646}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 37169cdbf247512a4114f4ef508f357f
+*** Element info: {Using=xpath, value=//table/tbody/tr[1]/td[2]/a}
+	at com.salesoptimize.testcases.TestCase_21.IncludeShippingCompanies(TestCase_21.java:20)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//table/tbody/tr[1]/td[2]/a&quot;}
+  (Session info: chrome=92.0.4515.159)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;TECHNEPLUS_GG&apos;, ip: &apos;192.168.1.41&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.11&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57646}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 37169cdbf247512a4114f4ef508f357f
+*** Element info: {Using=xpath, value=//table/tbody/tr[1]/td[2]/a}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.salesoptimize.utility.CommonMethod.findElement(CommonMethod.java:77)
+	at com.salesoptimize.utility.CommonMethod.elementToBeClickable(CommonMethod.java:927)
+	at com.salesoptimize.reusablemethods.ReusableMethodsDashboard.clickFirstRecord(ReusableMethodsDashboard.java:550)
+	at com.salesoptimize.reusablemethods.ReusableMethodsDashboard.includeShippingCompanies(ReusableMethodsDashboard.java:1006)
+	at com.salesoptimize.testcases.TestCase_21.IncludeShippingCompanies(TestCase_21.java:16)
+	... 25 more
+</pre></div></td>
+<td>29</td>
+<td>com.salesoptimize.testcases.TestCase_21@574b560f</td></tr>
+<tr>
+<td title='com.salesoptimize.testcases.TestCase_8.SelectIndustryAndSubIndustry()'><b>SelectIndustryAndSubIndustry</b><br>Test class: com.salesoptimize.testcases.TestCase_8<br>Test method: Verify if User is able to select Industry as Retail and Sub Industry as Fashion & Clothing<br>Parameters: 2, Dashboard</td>
+<td><div><pre>java.lang.AssertionError: Verified Industry not contain &apos;Retail&apos; and Sub-Industry should contain &apos;Fashion &amp; Clothing&apos;
+	at com.salesoptimize.utility.CommonMethod.assertFalse(CommonMethod.java:463)
+	at com.salesoptimize.reusablemethods.ReusableMethodsDashboard.selectIndustryAndSubIndustry(ReusableMethodsDashboard.java:207)
+	at com.salesoptimize.testcases.TestCase_8.SelectIndustryAndSubIndustry(TestCase_8.java:16)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace953105121", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace953105121'><pre>java.lang.AssertionError: Verified Industry not contain &apos;Retail&apos; and Sub-Industry should contain &apos;Fashion &amp; Clothing&apos;
+	at org.testng.Assert.fail(Assert.java:93)
+	at com.salesoptimize.utility.CommonMethod.assertFalse(CommonMethod.java:463)
+	at com.salesoptimize.reusablemethods.ReusableMethodsDashboard.selectIndustryAndSubIndustry(ReusableMethodsDashboard.java:207)
+	at com.salesoptimize.testcases.TestCase_8.SelectIndustryAndSubIndustry(TestCase_8.java:16)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>18</td>
+<td>com.salesoptimize.testcases.TestCase_8@1018bde2</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.salesoptimize.testcases.TestCase_6.AddSalesforceCRMExport()'><b>AddSalesforceCRMExport</b><br>Test class: com.salesoptimize.testcases.TestCase_6<br>Test method: Verify User gets redirected to SalesOptimize crm export setup page<br>Parameters: 2, Dashboard</td>
+<td></td>
+<td>2</td>
+<td>com.salesoptimize.testcases.TestCase_6@60015ef5</td></tr>
+<tr>
+<td title='com.salesoptimize.testcases.TestCase_20.AllSitesShipping()'><b>AllSitesShipping</b><br>Test class: com.salesoptimize.testcases.TestCase_20<br>Test method: Verify if Any one of 'Shipping Companies' or 'Shipping Page Link' should exist<br>Parameters: 2, Dashboard</td>
+<td></td>
+<td>15</td>
+<td>com.salesoptimize.testcases.TestCase_20@36b4fe2a</td></tr>
+<tr>
+<td title='com.salesoptimize.testcases.TestCase_10.ContactDepartment()'><b>ContactDepartment</b><br>Test class: com.salesoptimize.testcases.TestCase_10<br>Test method: Verify The number of records must contain 'Contact Department' and 'Contact Level' as 'Leadership' and 'C-Level', respectively.<br>Parameters: 2, Dashboard</td>
+<td></td>
+<td>43</td>
+<td>com.salesoptimize.testcases.TestCase_10@f2ff811</td></tr>
+<tr>
+<td title='com.salesoptimize.testcases.TestCase_26.EvidenceOfInternationalShipping()'><b>EvidenceOfInternationalShipping</b><br>Test class: com.salesoptimize.testcases.TestCase_26<br>Test method: Verify Shipping companies' value should contain 'International Delivery'<br>Parameters: 2, Dashboard</td>
+<td></td>
+<td>16</td>
+<td>com.salesoptimize.testcases.TestCase_26@157853da</td></tr>
+<tr>
+<td title='com.salesoptimize.testcases.TestCase_19.EvidenceOfMultipleCurrencies()'><b>EvidenceOfMultipleCurrencies</b><br>Test class: com.salesoptimize.testcases.TestCase_19<br>Test method: Verify if Has Multiple Currencies' should be 'Yes'<br>Parameters: 2, Dashboard</td>
+<td></td>
+<td>14</td>
+<td>com.salesoptimize.testcases.TestCase_19@757acd7b</td></tr>
+<tr>
+<td title='com.salesoptimize.testcases.TestCase_25.EvidenceofInternationalPresence()'><b>EvidenceofInternationalPresence</b><br>Test class: com.salesoptimize.testcases.TestCase_25<br>Test method: Verify Has International Domains value should be 'Yes'<br>Parameters: 2, Dashboard</td>
+<td></td>
+<td>15</td>
+<td>com.salesoptimize.testcases.TestCase_25@343570b7</td></tr>
+<tr>
+<td title='com.salesoptimize.testcases.TestCase_18.EvidenceofMobileSite()'><b>EvidenceofMobileSite</b><br>Test class: com.salesoptimize.testcases.TestCase_18<br>Test method: Verify Is 'Mobile Enabled should' be 'Yes<br>Parameters: 2, Dashboard</td>
+<td></td>
+<td>14</td>
+<td>com.salesoptimize.testcases.TestCase_18@11c9af63</td></tr>
+<tr>
+<td title='com.salesoptimize.testcases.TestCase_16.ExcludeFinanceProvider()'><b>ExcludeFinanceProvider</b><br>Test class: com.salesoptimize.testcases.TestCase_16<br>Test method: Finance Provider should not contain 'Santander UK<br>Parameters: 2, Dashboard</td>
+<td></td>
+<td>14</td>
+<td>com.salesoptimize.testcases.TestCase_16@1d8bd0de</td></tr>
+<tr>
+<td title='com.salesoptimize.testcases.TestCase_28.ExcludeWebsiteTechnology()'><b>ExcludeWebsiteTechnology</b><br>Test class: com.salesoptimize.testcases.TestCase_28<br>Test method: Verify Website Technology should not contain 'Magento'<br>Parameters: 2, Dashboard</td>
+<td></td>
+<td>18</td>
+<td>com.salesoptimize.testcases.TestCase_28@236e3f4e</td></tr>
+<tr>
+<td title='com.salesoptimize.testcases.TestCase_29.ExcludeWebsiteTechnology()'><b>ExcludeWebsiteTechnology</b><br>Test class: com.salesoptimize.testcases.TestCase_29<br>Test method: Verify Facebook Likes' should be '>1M'<br>Parameters: 2, Dashboard</td>
+<td></td>
+<td>23</td>
+<td>com.salesoptimize.testcases.TestCase_29@3cc1435c</td></tr>
+<tr>
+<td title='com.salesoptimize.testcases.TestCase_1.ExportAList()'><b>ExportAList</b><br>Test class: com.salesoptimize.testcases.TestCase_1<br>Test method: Verify The number of records in Excel and CSV format should match with the number of lines in the Bulk Download Screen<br>Parameters: 2, Dashboard</td>
+<td></td>
+<td>61</td>
+<td>com.salesoptimize.testcases.TestCase_1@7748410a</td></tr>
+<tr>
+<td title='com.salesoptimize.testcases.TestCase_11.ExportMustHaveEmailAddressPhoneNumber()'><b>ExportMustHaveEmailAddressPhoneNumber</b><br>Test class: com.salesoptimize.testcases.TestCase_11<br>Test method: Verify All records in the downloaded file should have at least one 'Company Email' and 'Company Phone Number'<br>Parameters: 2, Dashboard</td>
+<td></td>
+<td>48</td>
+<td>com.salesoptimize.testcases.TestCase_11@568ff82</td></tr>
+<tr>
+<td title='com.salesoptimize.testcases.TestCase_15.IncludeFinanceProvider()'><b>IncludeFinanceProvider</b><br>Test class: com.salesoptimize.testcases.TestCase_15<br>Test method: Verify Finance Provider should contain 'Santander UK'<br>Parameters: 2, Dashboard</td>
+<td></td>
+<td>16</td>
+<td>com.salesoptimize.testcases.TestCase_15@186f8716</td></tr>
+<tr>
+<td title='com.salesoptimize.testcases.TestCase_38.IncludeMarketingAnalytics()'><b>IncludeMarketingAnalytics</b><br>Test class: com.salesoptimize.testcases.TestCase_38<br>Test method: Verify 'Marketing Analytics +' should contain 'Doofinder'<br>Parameters: 2, Dashboard</td>
+<td></td>
+<td>30</td>
+<td>com.salesoptimize.testcases.TestCase_38@3c947bc5</td></tr>
+<tr>
+<td title='com.salesoptimize.testcases.TestCase_27.IncludeWebsiteTechnology()'><b>IncludeWebsiteTechnology</b><br>Test class: com.salesoptimize.testcases.TestCase_27<br>Test method: Verify Website Technology should contain 'Magento'<br>Parameters: 2, Dashboard</td>
+<td></td>
+<td>19</td>
+<td>com.salesoptimize.testcases.TestCase_27@71c3b41</td></tr>
+<tr>
+<td title='com.salesoptimize.testcases.TestCase_31.InstagramFollowers()'><b>InstagramFollowers</b><br>Test class: com.salesoptimize.testcases.TestCase_31<br>Test method: Verify Instagram Followers' should be '>1M'<br>Parameters: 2, Dashboard</td>
+<td></td>
+<td>25</td>
+<td>com.salesoptimize.testcases.TestCase_31@dd0c991</td></tr>
+<tr>
+<td title='com.salesoptimize.landingpage.LoginSalesOptimizeTest.LoginSalesOptimize()'><b>LoginSalesOptimize</b><br>Test class: com.salesoptimize.landingpage.LoginSalesOptimizeTest<br>Test method: Verify if User was able to login successfully</td>
+<td></td>
+<td>4</td>
+<td>com.salesoptimize.landingpage.LoginSalesOptimizeTest@7c83dc97</td></tr>
+<tr>
+<td title='com.salesoptimize.testcases.TestCase_7.Multiurllookup()'><b>Multiurllookup</b><br>Test class: com.salesoptimize.testcases.TestCase_7<br>Test method: Verify Payment provider should contain Adyen or Apple Pay or Both (i.e. Ayden, Apple Pay)<br>Parameters: 2, Dashboard</td>
+<td></td>
+<td>15</td>
+<td>com.salesoptimize.testcases.TestCase_7@2f54a33d</td></tr>
+<tr>
+<td title='com.salesoptimize.testcases.TestCase_36.PresencOfInstagram()'><b>PresencOfInstagram</b><br>Test class: com.salesoptimize.testcases.TestCase_36<br>Test method: Verify 'Instagram page link should exists under 'Website Overview' section'<br>Parameters: 2, Dashboard</td>
+<td></td>
+<td>21</td>
+<td>com.salesoptimize.testcases.TestCase_36@671a5887</td></tr>
+<tr>
+<td title='com.salesoptimize.testcases.TestCase_34.PresenceOfFacebook()'><b>PresenceOfFacebook</b><br>Test class: com.salesoptimize.testcases.TestCase_34<br>Test method: Verify Facebook page link should exists under 'Website Overview' section<br>Parameters: 2, Dashboard</td>
+<td></td>
+<td>23</td>
+<td>com.salesoptimize.testcases.TestCase_34@36d585c</td></tr>
+<tr>
+<td title='com.salesoptimize.testcases.TestCase_35.PresenceOfTwitter()'><b>PresenceOfTwitter</b><br>Test class: com.salesoptimize.testcases.TestCase_35<br>Test method: Verify 'Twitter page link should exists under 'Website Overview' section<br>Parameters: 2, Dashboard</td>
+<td></td>
+<td>21</td>
+<td>com.salesoptimize.testcases.TestCase_35@87a85e1</td></tr>
+<tr>
+<td title='com.salesoptimize.testcases.TestCase_37.PresenceofYoutube()'><b>PresenceofYoutube</b><br>Test class: com.salesoptimize.testcases.TestCase_37<br>Test method: Verify Any of 'Youtube Views' or 'Youtube Subscribers' should exists<br>Parameters: 2, Dashboard</td>
+<td></td>
+<td>23</td>
+<td>com.salesoptimize.testcases.TestCase_37@5552768b</td></tr>
+<tr>
+<td title='com.salesoptimize.testcases.TestCase_3.SelectGlobalRegion()'><b>SelectGlobalRegion</b><br>Test class: com.salesoptimize.testcases.TestCase_3<br>Test method: Verify if User is able to Select Global Region + Business Country + City + Zip Code + Timezone<br>Parameters: 2, Dashboard</td>
+<td></td>
+<td>45</td>
+<td>com.salesoptimize.testcases.TestCase_3@740773a3</td></tr>
+<tr>
+<td title='com.salesoptimize.testcases.TestCase_40.TopLevelDomain()'><b>TopLevelDomain</b><br>Test class: com.salesoptimize.testcases.TestCase_40<br>Test method: Verify Simple Url should end with '.com'<br>Parameters: 2, Dashboard</td>
+<td></td>
+<td>44</td>
+<td>com.salesoptimize.testcases.TestCase_40@55f616cf</td></tr>
+<tr>
+<td title='com.salesoptimize.testcases.TestCase_30.TwitterFollowers()'><b>TwitterFollowers</b><br>Test class: com.salesoptimize.testcases.TestCase_30<br>Test method: Verify 'Twitter Followers' should be '>1M''<br>Parameters: 2, Dashboard</td>
+<td></td>
+<td>24</td>
+<td>com.salesoptimize.testcases.TestCase_30@6bf0219d</td></tr>
+<tr>
+<td title='com.salesoptimize.testcases.TestCase_39.TwitterFollowers()'><b>TwitterFollowers</b><br>Test class: com.salesoptimize.testcases.TestCase_39<br>Test method: Verify 'Marketing Analytics +' should not contain 'Doofinder'<br>Parameters: 2, Dashboard</td>
+<td></td>
+<td>21</td>
+<td>com.salesoptimize.testcases.TestCase_39@609db43b</td></tr>
+<tr>
+<td title='com.salesoptimize.testcases.TestCase_24.VisitorTrafficRegionCountry()'><b>VisitorTrafficRegionCountry</b><br>Test class: com.salesoptimize.testcases.TestCase_24<br>Test method: Verify Alexa Traffic Information' shoud contain country Germany<br>Parameters: 2, Dashboard</td>
+<td></td>
+<td>17</td>
+<td>com.salesoptimize.testcases.TestCase_24@3943a2be</td></tr>
+<tr>
+<td title='com.salesoptimize.testcases.TestCase_33.YouTubeSubscribers()'><b>YouTubeSubscribers</b><br>Test class: com.salesoptimize.testcases.TestCase_33<br>Test method: Verify 'YouTube Subscribers' should be '>1M'<br>Parameters: 2, Dashboard</td>
+<td></td>
+<td>29</td>
+<td>com.salesoptimize.testcases.TestCase_33@69fb6037</td></tr>
+<tr>
+<td title='com.salesoptimize.testcases.TestCase_32.YouTubeViews()'><b>YouTubeViews</b><br>Test class: com.salesoptimize.testcases.TestCase_32<br>Test method: Verify YouTube Views' should be '>1M'<br>Parameters: 2, Dashboard</td>
+<td></td>
+<td>24</td>
+<td>com.salesoptimize.testcases.TestCase_32@5f16132a</td></tr>
+<tr>
+<td title='com.salesoptimize.testcases.TestCase_5.includePaymentProvider()'><b>includePaymentProvider</b><br>Test class: com.salesoptimize.testcases.TestCase_5<br>Test method: Verify Payment provider should contain Adyen or Apple Pay or Both (i.e. Ayden, Apple Pay)<br>Parameters: 2, Dashboard</td>
+<td></td>
+<td>14</td>
+<td>com.salesoptimize.testcases.TestCase_5@55740540</td></tr>
+<tr>
+<td title='com.salesoptimize.testcases.TestCase_4.selectEstimatedOnlineSales()'><b>selectEstimatedOnlineSales</b><br>Test class: com.salesoptimize.testcases.TestCase_4<br>Test method: Verify if User is able to select Company Turnover as 1M and above<br>Parameters: 2, Dashboard</td>
+<td></td>
+<td>14</td>
+<td>com.salesoptimize.testcases.TestCase_4@37f1104d</td></tr>
+</table><p>
+</body>
+</html>
